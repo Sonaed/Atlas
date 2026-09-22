@@ -1,0 +1,18 @@
+Start testing: Sep 17 17:44 CEST
+----------------------------------------------------------
+1/1 Testing: CreativeSystemAlphaSmoke
+1/1 Test: CreativeSystemAlphaSmoke
+Command: "/home/deanos/Documents/CreativeSystemAtlas_alpha0.1/build_atlas/CreativeSystemAlpha" "--self-test"
+Directory: /home/deanos/Documents/CreativeSystemAtlas_alpha0.1/build_atlas
+"CreativeSystemAlphaSmoke" start time: Sep 17 17:44 CEST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Passed.
+"CreativeSystemAlphaSmoke" end time: Sep 17 17:44 CEST
+"CreativeSystemAlphaSmoke" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Sep 17 17:44 CEST

@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/CreativeSystemAlpha.dir/link.d CMakeFiles/CreativeSystemAlpha.dir/app/main.cpp.o -o CreativeSystemAlpha  libCreativeCore.a /usr/lib/libpng.so /usr/lib/libz.so /usr/lib/libtiff.so.6.3.0 /usr/lib/libpython3.14.so /usr/lib/libGLESv2.so

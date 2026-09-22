@@ -1,0 +1,10 @@
+/home/deanos/Documents/CreativeSystemAtlas_alpha0.1/build_atlas/CMakeFiles/CreativeCore.dir
+/home/deanos/Documents/CreativeSystemAtlas_alpha0.1/build_atlas/CMakeFiles/CreativeSystemAlpha.dir
+/home/deanos/Documents/CreativeSystemAtlas_alpha0.1/build_atlas/CMakeFiles/CreativeSystemAtlasGtk.dir
+/home/deanos/Documents/CreativeSystemAtlas_alpha0.1/build_atlas/CMakeFiles/test.dir
+/home/deanos/Documents/CreativeSystemAtlas_alpha0.1/build_atlas/CMakeFiles/edit_cache.dir
+/home/deanos/Documents/CreativeSystemAtlas_alpha0.1/build_atlas/CMakeFiles/rebuild_cache.dir
+/home/deanos/Documents/CreativeSystemAtlas_alpha0.1/build_atlas/CMakeFiles/list_install_components.dir
+/home/deanos/Documents/CreativeSystemAtlas_alpha0.1/build_atlas/CMakeFiles/install.dir
+/home/deanos/Documents/CreativeSystemAtlas_alpha0.1/build_atlas/CMakeFiles/install/local.dir
+/home/deanos/Documents/CreativeSystemAtlas_alpha0.1/build_atlas/CMakeFiles/install/strip.dir
