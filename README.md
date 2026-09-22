@@ -1,5 +1,13 @@
 # CreativeSystem Atlas alpha 0.1
 
+
+[AI made Until I get better at Coding] Actuellement en Raster mais va evolué sur un logiciel d"illu vectoriel simplifier (car j'en ai marre des logiciels de vectoriel pas du tout intuitif)
+A servie de labo pour améliorer les perf de Nebula mais il est temps a Atlas a terme de rejoindre son vrais objectif 
+MAJ Majeur fin de semaine pour la réorientation total de l'application
+
+
+
+
 Première base modulaire de CreativeSystem : moteur C++ indépendant de l’interface,
 TileStore, cache LRU, FusionCreatorEngine et point d’entrée prévu pour GTK 4 /
 Wayland / EGL. Le renderer GPU sera branché après validation du modèle de données.
