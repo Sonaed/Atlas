@@ -1,0 +1,86 @@
+[
+{
+  "directory": "/home/deanos/Documents/CreativeSystemAtlas_alpha0.1/build",
+  "command": "/usr/bin/c++  -I/home/deanos/Documents/CreativeSystemAtlas_alpha0.1 -isystem /usr/include/python3.14 -O3 -DNDEBUG -std=gnu++20 -o CMakeFiles/CreativeCore.dir/engine/memory/memory_manager.cpp.o -c /home/deanos/Documents/CreativeSystemAtlas_alpha0.1/engine/memory/memory_manager.cpp",
+  "file": "/home/deanos/Documents/CreativeSystemAtlas_alpha0.1/engine/memory/memory_manager.cpp",
+  "output": "CMakeFiles/CreativeCore.dir/engine/memory/memory_manager.cpp.o"
+},
+{
+  "directory": "/home/deanos/Documents/CreativeSystemAtlas_alpha0.1/build",
+  "command": "/usr/bin/c++  -I/home/deanos/Documents/CreativeSystemAtlas_alpha0.1 -isystem /usr/include/python3.14 -O3 -DNDEBUG -std=gnu++20 -o CMakeFiles/CreativeCore.dir/engine/fusion/fusion_creator_engine.cpp.o -c /home/deanos/Documents/CreativeSystemAtlas_alpha0.1/engine/fusion/fusion_creator_engine.cpp",
+  "file": "/home/deanos/Documents/CreativeSystemAtlas_alpha0.1/engine/fusion/fusion_creator_engine.cpp",
+  "output": "CMakeFiles/CreativeCore.dir/engine/fusion/fusion_creator_engine.cpp.o"
+},
+{
+  "directory": "/home/deanos/Documents/CreativeSystemAtlas_alpha0.1/build",
+  "command": "/usr/bin/c++  -I/home/deanos/Documents/CreativeSystemAtlas_alpha0.1 -isystem /usr/include/python3.14 -O3 -DNDEBUG -std=gnu++20 -o CMakeFiles/CreativeCore.dir/engine/tiles/tile_store.cpp.o -c /home/deanos/Documents/CreativeSystemAtlas_alpha0.1/engine/tiles/tile_store.cpp",
+  "file": "/home/deanos/Documents/CreativeSystemAtlas_alpha0.1/engine/tiles/tile_store.cpp",
+  "output": "CMakeFiles/CreativeCore.dir/engine/tiles/tile_store.cpp.o"
+},
+{
+  "directory": "/home/deanos/Documents/CreativeSystemAtlas_alpha0.1/build",
+  "command": "/usr/bin/c++  -I/home/deanos/Documents/CreativeSystemAtlas_alpha0.1 -isystem /usr/include/python3.14 -O3 -DNDEBUG -std=gnu++20 -o CMakeFiles/CreativeCore.dir/engine/brush/brush_engine.cpp.o -c /home/deanos/Documents/CreativeSystemAtlas_alpha0.1/engine/brush/brush_engine.cpp",
+  "file": "/home/deanos/Documents/CreativeSystemAtlas_alpha0.1/engine/brush/brush_engine.cpp",
+  "output": "CMakeFiles/CreativeCore.dir/engine/brush/brush_engine.cpp.o"
+},
+{
+  "directory": "/home/deanos/Documents/CreativeSystemAtlas_alpha0.1/build",
+  "command": "/usr/bin/c++  -I/home/deanos/Documents/CreativeSystemAtlas_alpha0.1 -isystem /usr/include/python3.14 -O3 -DNDEBUG -std=gnu++20 -o CMakeFiles/CreativeCore.dir/engine/layers/layer_stack.cpp.o -c /home/deanos/Documents/CreativeSystemAtlas_alpha0.1/engine/layers/layer_stack.cpp",
+  "file": "/home/deanos/Documents/CreativeSystemAtlas_alpha0.1/engine/layers/layer_stack.cpp",
+  "output": "CMakeFiles/CreativeCore.dir/engine/layers/layer_stack.cpp.o"
+},
+{
+  "directory": "/home/deanos/Documents/CreativeSystemAtlas_alpha0.1/build",
+  "command": "/usr/bin/c++  -I/home/deanos/Documents/CreativeSystemAtlas_alpha0.1 -isystem /usr/include/python3.14 -O3 -DNDEBUG -std=gnu++20 -o CMakeFiles/CreativeCore.dir/engine/tools/tool_system.cpp.o -c /home/deanos/Documents/CreativeSystemAtlas_alpha0.1/engine/tools/tool_system.cpp",
+  "file": "/home/deanos/Documents/CreativeSystemAtlas_alpha0.1/engine/tools/tool_system.cpp",
+  "output": "CMakeFiles/CreativeCore.dir/engine/tools/tool_system.cpp.o"
+},
+{
+  "directory": "/home/deanos/Documents/CreativeSystemAtlas_alpha0.1/build",
+  "command": "/usr/bin/c++  -I/home/deanos/Documents/CreativeSystemAtlas_alpha0.1 -isystem /usr/include/python3.14 -O3 -DNDEBUG -std=gnu++20 -o CMakeFiles/CreativeCore.dir/engine/serialization/atlas_project.cpp.o -c /home/deanos/Documents/CreativeSystemAtlas_alpha0.1/engine/serialization/atlas_project.cpp",
+  "file": "/home/deanos/Documents/CreativeSystemAtlas_alpha0.1/engine/serialization/atlas_project.cpp",
+  "output": "CMakeFiles/CreativeCore.dir/engine/serialization/atlas_project.cpp.o"
+},
+{
+  "directory": "/home/deanos/Documents/CreativeSystemAtlas_alpha0.1/build",
+  "command": "/usr/bin/c++  -I/home/deanos/Documents/CreativeSystemAtlas_alpha0.1 -isystem /usr/include/python3.14 -O3 -DNDEBUG -std=gnu++20 -o CMakeFiles/CreativeCore.dir/engine/layers/layer_compositor.cpp.o -c /home/deanos/Documents/CreativeSystemAtlas_alpha0.1/engine/layers/layer_compositor.cpp",
+  "file": "/home/deanos/Documents/CreativeSystemAtlas_alpha0.1/engine/layers/layer_compositor.cpp",
+  "output": "CMakeFiles/CreativeCore.dir/engine/layers/layer_compositor.cpp.o"
+},
+{
+  "directory": "/home/deanos/Documents/CreativeSystemAtlas_alpha0.1/build",
+  "command": "/usr/bin/c++  -I/home/deanos/Documents/CreativeSystemAtlas_alpha0.1 -isystem /usr/include/python3.14 -O3 -DNDEBUG -std=gnu++20 -o CMakeFiles/CreativeCore.dir/engine/brush/bitmap_brush.cpp.o -c /home/deanos/Documents/CreativeSystemAtlas_alpha0.1/engine/brush/bitmap_brush.cpp",
+  "file": "/home/deanos/Documents/CreativeSystemAtlas_alpha0.1/engine/brush/bitmap_brush.cpp",
+  "output": "CMakeFiles/CreativeCore.dir/engine/brush/bitmap_brush.cpp.o"
+},
+{
+  "directory": "/home/deanos/Documents/CreativeSystemAtlas_alpha0.1/build",
+  "command": "/usr/bin/c++  -I/home/deanos/Documents/CreativeSystemAtlas_alpha0.1 -isystem /usr/include/python3.14 -O3 -DNDEBUG -std=gnu++20 -o CMakeFiles/CreativeCore.dir/engine/brush/advanced_brushes.cpp.o -c /home/deanos/Documents/CreativeSystemAtlas_alpha0.1/engine/brush/advanced_brushes.cpp",
+  "file": "/home/deanos/Documents/CreativeSystemAtlas_alpha0.1/engine/brush/advanced_brushes.cpp",
+  "output": "CMakeFiles/CreativeCore.dir/engine/brush/advanced_brushes.cpp.o"
+},
+{
+  "directory": "/home/deanos/Documents/CreativeSystemAtlas_alpha0.1/build",
+  "command": "/usr/bin/c++ -DCREATIVE_GTK4=1 -DCREATIVE_WAYLAND_NATIVE=1 -I/home/deanos/Documents/CreativeSystemAtlas_alpha0.1 -isystem /usr/include/python3.14 -isystem /usr/include/gtk-4.0 -isystem /usr/include/pango-1.0 -isystem /usr/include/fribidi -isystem /usr/include/harfbuzz -isystem /usr/include/gdk-pixbuf-2.0 -isystem /usr/include/glycin-2 -isystem /usr/include/cairo -isystem /usr/include/freetype2 -isystem /usr/include/libpng16 -isystem /usr/include/pixman-1 -isystem /usr/include/graphene-1.0 -isystem /usr/lib/graphene-1.0/include -isystem /usr/include/glib-2.0 -isystem /usr/lib/glib-2.0/include -isystem /usr/include/libmount -isystem /usr/include/blkid -isystem /usr/include/sysprof-6 -O3 -DNDEBUG -std=gnu++20 -mfpmath=sse -msse -msse2 -pthread -o CMakeFiles/CreativeSystemAtlasGtk.dir/ui/gtk/main.cpp.o -c /home/deanos/Documents/CreativeSystemAtlas_alpha0.1/ui/gtk/main.cpp",
+  "file": "/home/deanos/Documents/CreativeSystemAtlas_alpha0.1/ui/gtk/main.cpp",
+  "output": "CMakeFiles/CreativeSystemAtlasGtk.dir/ui/gtk/main.cpp.o"
+},
+{
+  "directory": "/home/deanos/Documents/CreativeSystemAtlas_alpha0.1/build",
+  "command": "/usr/bin/c++ -DCREATIVE_GTK4=1 -DCREATIVE_WAYLAND_NATIVE=1 -I/home/deanos/Documents/CreativeSystemAtlas_alpha0.1 -isystem /usr/include/python3.14 -isystem /usr/include/gtk-4.0 -isystem /usr/include/pango-1.0 -isystem /usr/include/fribidi -isystem /usr/include/harfbuzz -isystem /usr/include/gdk-pixbuf-2.0 -isystem /usr/include/glycin-2 -isystem /usr/include/cairo -isystem /usr/include/freetype2 -isystem /usr/include/libpng16 -isystem /usr/include/pixman-1 -isystem /usr/include/graphene-1.0 -isystem /usr/lib/graphene-1.0/include -isystem /usr/include/glib-2.0 -isystem /usr/lib/glib-2.0/include -isystem /usr/include/libmount -isystem /usr/include/blkid -isystem /usr/include/sysprof-6 -O3 -DNDEBUG -std=gnu++20 -mfpmath=sse -msse -msse2 -pthread -o CMakeFiles/CreativeSystemAtlasGtk.dir/engine/render/native_renderer.cpp.o -c /home/deanos/Documents/CreativeSystemAtlas_alpha0.1/engine/render/native_renderer.cpp",
+  "file": "/home/deanos/Documents/CreativeSystemAtlas_alpha0.1/engine/render/native_renderer.cpp",
+  "output": "CMakeFiles/CreativeSystemAtlasGtk.dir/engine/render/native_renderer.cpp.o"
+},
+{
+  "directory": "/home/deanos/Documents/CreativeSystemAtlas_alpha0.1/build",
+  "command": "/usr/bin/c++ -DCREATIVE_GTK4=1 -DCREATIVE_WAYLAND_NATIVE=1 -I/home/deanos/Documents/CreativeSystemAtlas_alpha0.1 -isystem /usr/include/python3.14 -isystem /usr/include/gtk-4.0 -isystem /usr/include/pango-1.0 -isystem /usr/include/fribidi -isystem /usr/include/harfbuzz -isystem /usr/include/gdk-pixbuf-2.0 -isystem /usr/include/glycin-2 -isystem /usr/include/cairo -isystem /usr/include/freetype2 -isystem /usr/include/libpng16 -isystem /usr/include/pixman-1 -isystem /usr/include/graphene-1.0 -isystem /usr/lib/graphene-1.0/include -isystem /usr/include/glib-2.0 -isystem /usr/lib/glib-2.0/include -isystem /usr/include/libmount -isystem /usr/include/blkid -isystem /usr/include/sysprof-6 -O3 -DNDEBUG -std=gnu++20 -mfpmath=sse -msse -msse2 -pthread -o CMakeFiles/CreativeSystemAtlasGtk.dir/ui/gtk/native_canvas_surface.cpp.o -c /home/deanos/Documents/CreativeSystemAtlas_alpha0.1/ui/gtk/native_canvas_surface.cpp",
+  "file": "/home/deanos/Documents/CreativeSystemAtlas_alpha0.1/ui/gtk/native_canvas_surface.cpp",
+  "output": "CMakeFiles/CreativeSystemAtlasGtk.dir/ui/gtk/native_canvas_surface.cpp.o"
+},
+{
+  "directory": "/home/deanos/Documents/CreativeSystemAtlas_alpha0.1/build",
+  "command": "/usr/bin/c++ -DCREATIVE_GTK4=1 -DCREATIVE_WAYLAND_NATIVE=1 -I/home/deanos/Documents/CreativeSystemAtlas_alpha0.1 -isystem /usr/include/python3.14 -isystem /usr/include/gtk-4.0 -isystem /usr/include/pango-1.0 -isystem /usr/include/fribidi -isystem /usr/include/harfbuzz -isystem /usr/include/gdk-pixbuf-2.0 -isystem /usr/include/glycin-2 -isystem /usr/include/cairo -isystem /usr/include/freetype2 -isystem /usr/include/libpng16 -isystem /usr/include/pixman-1 -isystem /usr/include/graphene-1.0 -isystem /usr/lib/graphene-1.0/include -isystem /usr/include/glib-2.0 -isystem /usr/lib/glib-2.0/include -isystem /usr/include/libmount -isystem /usr/include/blkid -isystem /usr/include/sysprof-6 -O3 -DNDEBUG -std=gnu++20 -mfpmath=sse -msse -msse2 -pthread -o CMakeFiles/CreativeSystemAtlasGtk.dir/ui/gtk/color_wheel.cpp.o -c /home/deanos/Documents/CreativeSystemAtlas_alpha0.1/ui/gtk/color_wheel.cpp",
+  "file": "/home/deanos/Documents/CreativeSystemAtlas_alpha0.1/ui/gtk/color_wheel.cpp",
+  "output": "CMakeFiles/CreativeSystemAtlasGtk.dir/ui/gtk/color_wheel.cpp.o"
+}
+]

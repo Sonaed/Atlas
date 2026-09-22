@@ -1,0 +1,854 @@
+libinput version: 1.31.3
+event2  - SEMICO USB Keyboard: is tagged by udev as: Keyboard
+event2  - SEMICO USB Keyboard: device is a keyboard
+event3  - SEMICO USB Keyboard Consumer Control: is tagged by udev as: Keyboard
+event3  - SEMICO USB Keyboard Consumer Control: device is a keyboard
+event4  - SEMICO USB Keyboard System Control: is tagged by udev as: Keyboard
+event4  - SEMICO USB Keyboard System Control: device is a keyboard
+event5  - SEMICO USB Keyboard: is tagged by udev as: Keyboard
+event5  - SEMICO USB Keyboard: device is a keyboard
+event6  - Logitech G432 Gaming Headset Consumer Control: is tagged by udev as: Keyboard
+event6  - Logitech G432 Gaming Headset Consumer Control: device is a keyboard
+event7  - Logitech G432 Gaming Headset: is tagged by udev as: Keyboard
+event7  - Logitech G432 Gaming Headset: device is a keyboard
+event8  - Logitech G series G435 Wireless Gaming Headset Consumer Control: is tagged by udev as: Keyboard
+event8  - Logitech G series G435 Wireless Gaming Headset Consumer Control: device is a keyboard
+event9  - Logitech G series G435 Wireless Gaming Headset: is tagged by udev as: Keyboard
+event9  - Logitech G series G435 Wireless Gaming Headset: device is a keyboard
+event10 - Logitech G series G435 Wireless Gaming Headset: not tagged as supported input device
+event10 - not using input device '/dev/input/event10'
+event11 - Logitech G series G435 Wireless Gaming Headset: not tagged as supported input device
+event11 - not using input device '/dev/input/event11'
+event12 - Logitech G502 HERO Gaming Mouse: is tagged by udev as: Mouse
+event12 - Logitech G502 HERO Gaming Mouse: device set to 2400 DPI
+event12 - Logitech G502 HERO Gaming Mouse: device is a pointer
+event13 - Logitech G502 HERO Gaming Mouse Keyboard: is tagged by udev as: Keyboard
+event13 - Logitech G502 HERO Gaming Mouse Keyboard: device is a keyboard
+event15 - HDA NVidia HDMI/DP,pcm=3: is tagged by udev as: Switch
+event15 - not using input device '/dev/input/event15'
+event16 - HDA NVidia HDMI/DP,pcm=7: is tagged by udev as: Switch
+event16 - not using input device '/dev/input/event16'
+event17 - HDA NVidia HDMI/DP,pcm=8: is tagged by udev as: Switch
+event17 - not using input device '/dev/input/event17'
+event18 - HDA NVidia HDMI/DP,pcm=9: is tagged by udev as: Switch
+event18 - not using input device '/dev/input/event18'
+event19 - HD-Audio Generic Rear Mic: is tagged by udev as: Switch
+event19 - not using input device '/dev/input/event19'
+event20 - HD-Audio Generic Front Mic: is tagged by udev as: Switch
+event20 - not using input device '/dev/input/event20'
+event21 - HD-Audio Generic Line: is tagged by udev as: Switch
+event21 - not using input device '/dev/input/event21'
+event22 - HD-Audio Generic Line Out: is tagged by udev as: Switch
+event22 - not using input device '/dev/input/event22'
+event23 - HD-Audio Generic Front Headphone: is tagged by udev as: Switch
+event23 - not using input device '/dev/input/event23'
+event1  - Power Button: is tagged by udev as: Keyboard
+event1  - Power Button: device is a keyboard
+event0  - Power Button: is tagged by udev as: Keyboard
+event0  - Power Button: device is a keyboard
+event14 - Eee PC WMI hotkeys: is tagged by udev as: Keyboard
+event14 - Eee PC WMI hotkeys: device is a keyboard
+event24 - XP-Pen Pen: is tagged by udev as: Keyboard Tablet
+event24 - XP-Pen Pen: device "XP-Pen Pen" (28bd:0002) is not known to libwacom
+  ... event24 - Adjusting ABS_TILT_X range to [-63, 65]
+  ... event24 - Adjusting ABS_TILT_Y range to [-63, 65]
+event24 - XP-Pen Pen: device is a tablet
+event25 - XP-Pen Mouse: is tagged by udev as: Keyboard Mouse
+event25 - XP-Pen Mouse: emulating high-resolution scroll wheel events.
+event25 - XP-Pen Mouse: device is a pointer
+event25 - XP-Pen Mouse: device is a keyboard
+event26 - XP-Pen Eraser: is tagged by udev as: Tablet
+event26 - XP-Pen Eraser: device "XP-Pen Eraser" (28bd:0002) is not known to libwacom
+  ... event26 - Adjusting ABS_TILT_X range to [-63, 65]
+  ... event26 - Adjusting ABS_TILT_Y range to [-63, 65]
+event26 - XP-Pen Eraser: device is a tablet
+-event2   DEVICE_ADDED                 SEMICO USB Keyboard               seat0 default group1  cap:k
+-event3   DEVICE_ADDED                 SEMICO USB Keyboard Consumer Control seat0 default group1  cap:kp scroll-nat
+-event4   DEVICE_ADDED                 SEMICO USB Keyboard System Control seat0 default group1  cap:k
+-event5   DEVICE_ADDED                 SEMICO USB Keyboard               seat0 default group1  cap:k
+-event6   DEVICE_ADDED                 Logitech G432 Gaming Headset Consumer Control seat0 default group2  cap:k
+-event7   DEVICE_ADDED                 Logitech G432 Gaming Headset      seat0 default group2  cap:k
+-event8   DEVICE_ADDED                 Logitech G series G435 Wireless Gaming Headset Consumer Control seat0 default group3  cap:kp scroll-nat
+-event9   DEVICE_ADDED                 Logitech G series G435 Wireless Gaming Headset seat0 default group3  cap:k
+-event12  DEVICE_ADDED                 Logitech G502 HERO Gaming Mouse   seat0 default group4  cap:p left scroll-nat scroll-button
+-event13  DEVICE_ADDED                 Logitech G502 HERO Gaming Mouse Keyboard seat0 default group4  cap:kp scroll-nat
+-event1   DEVICE_ADDED                 Power Button                      seat0 default group5  cap:k
+-event0   DEVICE_ADDED                 Power Button                      seat0 default group6  cap:k
+-event14  DEVICE_ADDED                 Eee PC WMI hotkeys                seat0 default group7  cap:k
+-event24  DEVICE_ADDED                 XP-Pen Pen                        seat0 default group8  cap:T  size 262x148mm left calib
+-event25  DEVICE_ADDED                 XP-Pen Mouse                      seat0 default group9  cap:kp left scroll-nat scroll-button
+-event26  DEVICE_ADDED                 XP-Pen Eraser                     seat0 default group10 cap:T  size 262x148mm left calib
+-event24  TABLET_TOOL_PROXIMITY        +0.000s		179.29*/97.75*	tilt: -1.00*/-1.00*	pressure: 0.00*	slider: -1.00*	pen      ('<unnamed>', 0, id 0) proximity-in	axes:pts	btn:S
+ event24  TABLET_TOOL_AXIS             +0.003s		179.29 /97.93*	tilt: -1.00 /-1.00 	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS          2  +0.007s		179.28*/97.97*	tilt: -1.00 /-1.00 	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS          3  +0.011s		179.28*/98.00*	tilt: -1.00 /-1.00 	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS          4  +0.013s		179.28*/98.05*	tilt: -1.00 /-1.00 	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS          5  +0.017s		179.29*/98.08*	tilt: -1.00 /-1.00 	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS          6  +0.022s		179.29*/98.11*	tilt: -1.00 /-1.00 	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS          7  +0.025s		179.30*/98.14*	tilt: -1.00 /-1.00 	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS          8  +0.029s		179.31*/98.18*	tilt: 0.00*/0.00*	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS          9  +0.032s		179.31 /98.21*	tilt: 0.00 /1.00*	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         10  +0.036s		179.31*/98.24*	tilt: 1.00*/2.00*	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         11  +0.040s		179.32*/98.27*	tilt: 1.00 /3.00*	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         12  +0.043s		179.34*/98.37*	tilt: 2.00*/4.00*	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         13  +0.047s		179.35*/98.45*	tilt: 3.00*/5.00*	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         14  +0.049s		179.37*/98.52*	tilt: 4.00*/6.00*	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         15  +0.054s		179.38*/98.58*	tilt: 4.00 /6.00 	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         16  +0.058s		179.41*/98.66*	tilt: 5.00*/6.00 	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         17  +0.061s		179.41*/98.70*	tilt: 6.00*/7.00*	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         18  +0.065s		179.43*/98.74*	tilt: 7.00*/8.00*	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         19  +0.069s		179.44*/98.78*	tilt: 7.00 /8.00 	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         20  +0.071s		179.47*/98.84*	tilt: 8.00*/9.00*	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         21  +0.076s		179.50*/98.89*	tilt: 8.00 /9.00 	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         22  +0.078s		179.50*/98.91*	tilt: 9.00*/10.00*	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         23  +0.083s		179.53*/98.95*	tilt: 10.00*/10.00 	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         24  +0.087s		179.54*/98.98*	tilt: 8.00*/8.00*	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         25  +0.089s		179.56*/99.01*	tilt: 9.00*/8.00 	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         26  +0.094s		179.56*/99.03*	tilt: 9.00 /9.00*	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         27  +0.098s		179.60*/99.11*	tilt: 10.00*/9.00 	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         28  +0.101s		179.63*/99.16*	tilt: 10.00 /10.00*	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         29  +0.105s		179.65*/99.20*	tilt: 11.00*/10.00 	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         30  +0.108s		179.67*/99.23*	tilt: 11.00 /10.00 	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         31  +0.112s		179.68*/99.26*	tilt: 12.00*/10.00 	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         32  +0.116s		179.69*/99.28*	tilt: 12.00 /10.00 	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         33  +0.119s		179.70*/99.31*	tilt: 13.00*/10.00 	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         34  +0.123s		179.72*/99.33*	tilt: 13.00 /11.00*	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         35  +0.127s		179.72*/99.34*	tilt: 14.00*/11.00 	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         36  +0.130s		179.74*/99.36*	tilt: 14.00 /11.00 	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         37  +0.134s		179.74*/99.38*	tilt: 14.00 /11.00 	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         38  +0.137s		179.75*/99.39*	tilt: 14.00 /11.00 	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         39  +0.141s		179.77*/99.41*	tilt: 14.00 /11.00 	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         40  +0.145s		179.78*/99.42*	tilt: 14.00 /11.00 	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         41  +0.148s		179.79*/99.44*	tilt: 14.00 /11.00 	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         42  +0.152s		179.81*/99.46*	tilt: 14.00 /11.00 	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         43  +0.156s		179.82*/99.48*	tilt: 14.00 /12.00*	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         44  +0.159s		179.84*/99.49*	tilt: 14.00 /13.00*	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         45  +0.163s		179.85*/99.51*	tilt: 14.00 /13.00 	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         46  +0.166s		179.87*/99.53*	tilt: 14.00 /13.00 	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         47  +0.170s		179.88*/99.55*	tilt: 14.00 /13.00 	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         48  +0.174s		179.90*/99.57*	tilt: 14.00 /13.00 	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         49  +0.177s		179.95*/99.63*	tilt: 14.00 /13.00 	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         50  +0.181s		179.99*/99.67*	tilt: 14.00 /13.00 	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         51  +0.184s		180.02*/99.69*	tilt: 14.00 /13.00 	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         52  +0.188s		180.06*/99.72*	tilt: 15.00*/14.00*	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         53  +0.192s		180.08*/99.74*	tilt: 15.00 /15.00*	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         54  +0.195s		180.10*/99.76*	tilt: 15.00 /16.00*	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         55  +0.199s		180.12*/99.78*	tilt: 15.00 /15.00*	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         56  +0.203s		180.13*/99.78 	tilt: 15.00 /15.00 	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         57  +0.206s		180.15*/99.78*	tilt: 15.00 /15.00 	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         58  +0.210s		180.16*/99.80*	tilt: 15.00 /15.00 	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         59  +0.213s		180.18*/99.81*	tilt: 15.00 /15.00 	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         60  +0.220s		180.19*/99.83*	tilt: 15.00 /15.00 	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         61  +0.239s		180.19 /99.83 	tilt: 15.00 /15.00 	pressure: 0.02*	slider: -1.00 
+ event24  TABLET_TOOL_TIP              +0.242s		180.19 /99.83 	tilt: 15.00 /15.00 	pressure: 0.04*	slider: -1.00  down
+ event24  TABLET_TOOL_AXIS             +0.246s		180.19 /99.83 	tilt: 15.00 /15.00 	pressure: 0.07*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS          2  +0.250s		180.19 /99.83 	tilt: 15.00 /15.00 	pressure: 0.09*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS          3  +0.253s		180.19 /99.83 	tilt: 15.00 /15.00 	pressure: 0.10*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS          4  +0.257s		180.13*/99.82*	tilt: 15.00 /15.00 	pressure: 0.12*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS          5  +0.261s		180.13 /99.82 	tilt: 15.00 /15.00 	pressure: 0.13*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS          6  +0.264s		180.09*/99.81*	tilt: 15.00 /15.00 	pressure: 0.14*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS          7  +0.268s		180.08*/99.81*	tilt: 15.00 /15.00 	pressure: 0.15*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS          8  +0.272s		180.06*/99.81*	tilt: 15.00 /15.00 	pressure: 0.16*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS          9  +0.275s		180.06 /99.81 	tilt: 15.00 /15.00 	pressure: 0.17*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         10  +0.279s		180.03*/99.80*	tilt: 15.00 /15.00 	pressure: 0.17*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         11  +0.283s		180.00*/99.79*	tilt: 15.00 /15.00 	pressure: 0.18*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         12  +0.286s		179.99*/99.78*	tilt: 15.00 /15.00 	pressure: 0.18*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         13  +0.290s		179.99 /99.78 	tilt: 16.00*/15.00 	pressure: 0.18*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         14  +0.293s		179.96*/99.77*	tilt: 16.00 /16.00*	pressure: 0.18*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         15  +0.297s		179.93*/99.75*	tilt: 16.00 /16.00 	pressure: 0.17*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         16  +0.301s		179.91*/99.73*	tilt: 16.00 /16.00 	pressure: 0.12*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         17  +0.304s		179.89*/99.72*	tilt: 16.00 /16.00 	pressure: 0.09*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         18  +0.308s		179.88*/99.71*	tilt: 16.00 /16.00 	pressure: 0.06*	slider: -1.00 
+ event24  TABLET_TOOL_TIP              +0.312s		179.87*/99.69*	tilt: 14.00*/15.00*	pressure: 0.00*	slider: -1.00  up
+ event24  TABLET_TOOL_AXIS             +0.315s		179.85*/99.68*	tilt: 15.00*/16.00*	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS          2  +0.319s		179.84*/99.67*	tilt: 16.00*/16.00 	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS          3  +0.326s		179.82*/99.64*	tilt: 16.00 /16.00 	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS          4  +0.330s		179.81*/99.62*	tilt: 16.00 /16.00 	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS          5  +0.333s		179.81*/99.61*	tilt: 16.00 /16.00 	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS          6  +0.336s		179.79*/99.59*	tilt: 16.00 /16.00 	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS          7  +0.344s		179.78*/99.57*	tilt: 16.00 /16.00 	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS          8  +0.348s		179.75*/99.50*	tilt: 16.00 /16.00 	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS          9  +0.351s		179.73*/99.48*	tilt: 16.00 /16.00 	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         10  +0.355s		179.72*/99.45*	tilt: 16.00 /16.00 	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         11  +0.359s		179.71*/99.44*	tilt: 16.00 /16.00 	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         12  +0.362s		179.69*/99.42*	tilt: 16.00 /16.00 	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         13  +0.370s		179.68*/99.41*	tilt: 16.00 /16.00 	pressure: 0.03*	slider: -1.00 
+ event24  TABLET_TOOL_TIP              +0.373s		179.68 /99.41 	tilt: 16.00 /16.00 	pressure: 0.05*	slider: -1.00  down
+ event24  TABLET_TOOL_AXIS             +0.377s		179.66*/99.39*	tilt: 16.00 /16.00 	pressure: 0.08*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS          2  +0.381s		179.65*/99.38*	tilt: 16.00 /16.00 	pressure: 0.10*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS          3  +0.384s		179.63*/99.36*	tilt: 16.00 /16.00 	pressure: 0.12*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS          4  +0.387s		179.63 /99.36 	tilt: 16.00 /16.00 	pressure: 0.13*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS          5  +0.391s		179.62*/99.34*	tilt: 16.00 /16.00 	pressure: 0.15*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS          6  +0.395s		179.60*/99.33*	tilt: 16.00 /16.00 	pressure: 0.17*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS          7  +0.399s		179.59*/99.31*	tilt: 16.00 /16.00 	pressure: 0.19*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS          8  +0.402s		179.57*/99.30*	tilt: 16.00 /16.00 	pressure: 0.20*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS          9  +0.406s		179.57 /99.30 	tilt: 16.00 /16.00 	pressure: 0.22*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         10  +0.410s		179.56*/99.28*	tilt: 16.00 /16.00 	pressure: 0.24*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         11  +0.412s		179.54*/99.27*	tilt: 16.00 /16.00 	pressure: 0.25*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         12  +0.417s		179.54 /99.27 	tilt: 16.00 /16.00 	pressure: 0.27*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         13  +0.421s		179.53*/99.25*	tilt: 16.00 /16.00 	pressure: 0.28*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         14  +0.424s		179.53 /99.25 	tilt: 14.00*/15.00*	pressure: 0.29*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         15  +0.428s		179.53 /99.25 	tilt: 15.00*/16.00*	pressure: 0.31*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         16  +0.431s		179.51*/99.23*	tilt: 16.00*/16.00 	pressure: 0.32*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         17  +0.434s		179.51 /99.23 	tilt: 16.00 /16.00 	pressure: 0.33*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         18  +0.439s		179.50*/99.22*	tilt: 16.00 /16.00 	pressure: 0.34*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         19  +0.442s		179.50 /99.22 	tilt: 16.00 /16.00 	pressure: 0.36*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         20  +0.446s		179.49*/99.19*	tilt: 16.00 /16.00 	pressure: 0.37*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         21  +0.450s		179.49 /99.19 	tilt: 16.00 /16.00 	pressure: 0.38*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         22  +0.453s		179.47*/99.17*	tilt: 16.00 /16.00 	pressure: 0.39*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         23  +0.457s		179.47 /99.17 	tilt: 16.00 /16.00 	pressure: 0.41*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         24  +0.461s		179.46*/99.17*	tilt: 16.00 /16.00 	pressure: 0.42*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         25  +0.464s		179.46 /99.17 	tilt: 16.00 /16.00 	pressure: 0.43*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         26  +0.468s		179.46 /99.17 	tilt: 16.00 /16.00 	pressure: 0.44*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         27  +0.472s		179.46 /99.17 	tilt: 16.00 /16.00 	pressure: 0.44*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         28  +0.475s		179.45*/99.14*	tilt: 16.00 /16.00 	pressure: 0.45*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         29  +0.479s		179.45 /99.14 	tilt: 17.00*/16.00 	pressure: 0.46*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         30  +0.482s		179.45 /99.14 	tilt: 17.00 /16.00 	pressure: 0.47*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         31  +0.486s		179.45 /99.14 	tilt: 18.00*/16.00 	pressure: 0.48*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         32  +0.490s		179.44*/99.13*	tilt: 18.00 /16.00 	pressure: 0.48*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         33  +0.493s		179.44 /99.13 	tilt: 18.00 /16.00 	pressure: 0.49*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         34  +0.497s		179.44 /99.13 	tilt: 18.00 /16.00 	pressure: 0.49*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         35  +0.501s		179.44 /99.13 	tilt: 18.00 /16.00 	pressure: 0.49*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         36  +0.504s		179.44 /99.13 	tilt: 18.00 /16.00 	pressure: 0.50*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         37  +0.508s		179.44 /99.13 	tilt: 18.00 /16.00 	pressure: 0.50*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         38  +0.512s		179.44 /99.13 	tilt: 18.00 /16.00 	pressure: 0.51*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         39  +0.515s		179.43*/99.11*	tilt: 18.00 /16.00 	pressure: 0.51*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         40  +0.519s		179.43 /99.11 	tilt: 18.00 /16.00 	pressure: 0.51*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         41  +0.523s		179.43 /99.11 	tilt: 18.00 /16.00 	pressure: 0.52*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         42  +0.526s		179.43 /99.11 	tilt: 18.00 /16.00 	pressure: 0.52*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         43  +0.530s		179.43 /99.11 	tilt: 18.00 /16.00 	pressure: 0.52*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         44  +0.533s		179.43 /99.11 	tilt: 18.00 /16.00 	pressure: 0.52*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         45  +0.537s		179.43 /99.11 	tilt: 16.00*/15.00*	pressure: 0.52*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         46  +0.541s		179.42*/99.09*	tilt: 17.00*/16.00*	pressure: 0.52*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         47  +0.544s		179.42 /99.09 	tilt: 18.00*/16.00 	pressure: 0.52*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         48  +0.548s		179.42 /99.09 	tilt: 18.00 /16.00 	pressure: 0.53*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         49  +0.552s		179.42 /99.09 	tilt: 18.00 /16.00 	pressure: 0.53*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         50  +0.555s		179.42 /99.09 	tilt: 18.00 /16.00 	pressure: 0.54*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         51  +0.559s		179.42 /99.09 	tilt: 18.00 /16.00 	pressure: 0.54*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         52  +0.563s		179.42 /99.09 	tilt: 18.00 /16.00 	pressure: 0.54*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         53  +0.566s		179.41*/99.07*	tilt: 18.00 /16.00 	pressure: 0.55*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         54  +0.570s		179.41 /99.07 	tilt: 18.00 /16.00 	pressure: 0.55*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         55  +0.574s		179.41 /99.07 	tilt: 18.00 /16.00 	pressure: 0.56*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         56  +0.577s		179.41 /99.07 	tilt: 19.00*/16.00 	pressure: 0.57*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         57  +0.581s		179.41 /99.07 	tilt: 20.00*/16.00 	pressure: 0.57*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         58  +0.584s		179.41 /99.07 	tilt: 20.00 /16.00 	pressure: 0.57*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         59  +0.588s		179.41*/99.06*	tilt: 20.00 /16.00 	pressure: 0.57*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         60  +0.592s		179.41 /99.06 	tilt: 20.00 /16.00 	pressure: 0.58*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         61  +0.595s		179.41 /99.06 	tilt: 20.00 /16.00 	pressure: 0.58*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         62  +0.599s		179.38*/99.03*	tilt: 21.00*/16.00 	pressure: 0.58*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         63  +0.603s		179.37*/99.01*	tilt: 21.00 /16.00 	pressure: 0.58*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         64  +0.606s		179.35*/99.00*	tilt: 21.00 /16.00 	pressure: 0.58*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         65  +0.610s		179.34*/98.99*	tilt: 21.00 /16.00 	pressure: 0.59*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         66  +0.614s		179.32*/98.97*	tilt: 21.00 /16.00 	pressure: 0.59*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         67  +0.617s		179.30*/98.94*	tilt: 21.00 /16.00 	pressure: 0.59*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         68  +0.621s		179.26*/98.91*	tilt: 22.00*/16.00 	pressure: 0.60*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         69  +0.625s		179.24*/98.88*	tilt: 22.00 /16.00 	pressure: 0.60*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         70  +0.628s		179.22*/98.87*	tilt: 23.00*/16.00 	pressure: 0.60*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         71  +0.632s		179.18*/98.83*	tilt: 23.00 /16.00 	pressure: 0.61*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         72  +0.635s		179.16*/98.81*	tilt: 23.00 /16.00 	pressure: 0.61*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         73  +0.639s		179.15*/98.80*	tilt: 23.00 /16.00 	pressure: 0.61*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         74  +0.643s		179.13*/98.78*	tilt: 23.00 /16.00 	pressure: 0.61*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         75  +0.646s		179.12*/98.77*	tilt: 23.00 /16.00 	pressure: 0.62*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         76  +0.650s		179.11*/98.76*	tilt: 23.00 /15.00*	pressure: 0.62*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         77  +0.654s		179.09*/98.75*	tilt: 24.00*/16.00*	pressure: 0.62*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         78  +0.657s		179.09 /98.75 	tilt: 25.00*/16.00 	pressure: 0.63*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         79  +0.661s		179.08*/98.72*	tilt: 26.00*/16.00 	pressure: 0.63*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         80  +0.665s		179.07*/98.71*	tilt: 26.00 /16.00 	pressure: 0.63*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         81  +0.668s		179.06*/98.69*	tilt: 26.00 /16.00 	pressure: 0.64*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         82  +0.672s		179.04*/98.67*	tilt: 26.00 /16.00 	pressure: 0.64*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         83  +0.676s		179.04 /98.67 	tilt: 26.00 /16.00 	pressure: 0.64*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         84  +0.679s		179.03*/98.66*	tilt: 26.00 /16.00 	pressure: 0.64*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         85  +0.683s		179.03 /98.66 	tilt: 26.00 /16.00 	pressure: 0.64*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         86  +0.686s		179.03 /98.66 	tilt: 27.00*/16.00 	pressure: 0.64*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         87  +0.690s		179.03 /98.64*	tilt: 28.00*/16.00 	pressure: 0.64*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         88  +0.694s		179.03 /98.64 	tilt: 28.00 /16.00 	pressure: 0.64*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         89  +0.697s		179.03 /98.64 	tilt: 28.00 /16.00 	pressure: 0.64*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         90  +0.701s		179.03 /98.64 	tilt: 28.00 /16.00 	pressure: 0.65*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         91  +0.705s		179.02*/98.60*	tilt: 28.00 /16.00 	pressure: 0.65*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         92  +0.708s		179.02 /98.60 	tilt: 28.00 /16.00 	pressure: 0.65*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         93  +0.712s		179.02 /98.60 	tilt: 28.00 /16.00 	pressure: 0.65*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         94  +0.716s		179.02 /98.60 	tilt: 28.00 /16.00 	pressure: 0.65*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         95  +0.719s		179.01*/98.58*	tilt: 29.00*/16.00 	pressure: 0.65*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         96  +0.723s		179.01 /98.58 	tilt: 30.00*/16.00 	pressure: 0.65*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         97  +0.727s		179.01 /98.58 	tilt: 30.00 /16.00 	pressure: 0.65*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         98  +0.730s		179.01 /98.58 	tilt: 30.00 /16.00 	pressure: 0.66*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         99  +0.734s		179.01 /98.58 	tilt: 30.00 /16.00 	pressure: 0.66*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        100  +0.737s		179.01 /98.58 	tilt: 31.00*/16.00 	pressure: 0.66*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        101  +0.741s		179.01 /98.58 	tilt: 31.00 /16.00 	pressure: 0.67*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        102  +0.745s		179.01 /98.58 	tilt: 31.00 /16.00 	pressure: 0.67*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        103  +0.748s		179.03*/98.56*	tilt: 31.00 /16.00 	pressure: 0.67*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        104  +0.752s		179.03 /98.56 	tilt: 32.00*/16.00 	pressure: 0.67*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        105  +0.756s		179.03 /98.56 	tilt: 32.00 /16.00 	pressure: 0.68*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        106  +0.759s		179.03 /98.56 	tilt: 32.00 /16.00 	pressure: 0.68*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        107  +0.763s		179.03 /98.56 	tilt: 32.00 /-17.00*	pressure: 0.68*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        108  +0.767s		179.03 /98.56 	tilt: 33.00*/-16.00*	pressure: 0.69*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        109  +0.770s		179.03*/98.54*	tilt: 33.00 /-16.00 	pressure: 0.69*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        110  +0.774s		179.03 /98.54 	tilt: 34.00*/-16.00 	pressure: 0.70*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        111  +0.778s		179.03 /98.54 	tilt: 35.00*/-16.00 	pressure: 0.70*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        112  +0.781s		179.03 /98.54 	tilt: 35.00 /-16.00 	pressure: 0.70*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        113  +0.785s		179.03 /98.54 	tilt: 35.00 /-16.00 	pressure: 0.70*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        114  +0.788s		179.03 /98.54 	tilt: 35.00 /-16.00 	pressure: 0.70*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        115  +0.792s		179.03 /98.54 	tilt: 35.00 /-16.00 	pressure: 0.70*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        116  +0.796s		179.04*/98.53*	tilt: 35.00 /-16.00 	pressure: 0.70*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        117  +0.799s		179.04 /98.53 	tilt: 35.00 /-16.00 	pressure: 0.70*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        118  +0.803s		179.04 /98.53 	tilt: 35.00 /-16.00 	pressure: 0.70*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        119  +0.807s		179.04 /98.53 	tilt: 35.00 /-16.00 	pressure: 0.70*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        120  +0.810s		179.04 /98.53 	tilt: 35.00 /-16.00 	pressure: 0.70*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        121  +0.814s		179.04 /98.53 	tilt: 35.00 /-16.00 	pressure: 0.70*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        122  +0.818s		179.04 /98.53 	tilt: 35.00 /-16.00 	pressure: 0.71*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        123  +0.821s		179.04 /98.53 	tilt: 35.00 /-16.00 	pressure: 0.70*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        124  +0.825s		179.04 /98.53 	tilt: 35.00 /-16.00 	pressure: 0.70*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        125  +0.828s		179.06*/98.52*	tilt: 35.00 /-16.00 	pressure: 0.70*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        126  +0.832s		179.06 /98.52 	tilt: 36.00*/-16.00 	pressure: 0.71*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        127  +0.836s		179.06 /98.52 	tilt: 36.00 /-16.00 	pressure: 0.71*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        128  +0.839s		179.09*/98.51*	tilt: 36.00 /-16.00 	pressure: 0.71*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        129  +0.843s		179.09 /98.51 	tilt: 36.00 /-16.00 	pressure: 0.70*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        130  +0.847s		179.12*/98.50*	tilt: 36.00 /-16.00 	pressure: 0.71*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        131  +0.850s		179.15*/98.50*	tilt: 36.00 /-16.00 	pressure: 0.70*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        132  +0.854s		179.17*/98.50*	tilt: 36.00 /-16.00 	pressure: 0.71*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        133  +0.858s		179.22*/98.50 	tilt: 36.00 /-16.00 	pressure: 0.71*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        134  +0.861s		179.26*/98.50 	tilt: 36.00 /-16.00 	pressure: 0.71*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        135  +0.865s		179.33*/98.52*	tilt: 36.00 /-16.00 	pressure: 0.71*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        136  +0.869s		179.38*/98.50*	tilt: 36.00 /-16.00 	pressure: 0.71*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        137  +0.872s		179.43*/98.48*	tilt: 36.00 /-16.00 	pressure: 0.71*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        138  +0.876s		179.47*/98.47*	tilt: 36.00 /-15.00*	pressure: 0.71*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        139  +0.879s		179.52*/98.47*	tilt: 36.00 /-14.00*	pressure: 0.71*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        140  +0.883s		179.59*/98.46*	tilt: 36.00 /-14.00 	pressure: 0.71*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        141  +0.887s		179.64*/98.45*	tilt: 36.00 /-14.00 	pressure: 0.71*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        142  +0.890s		179.69*/98.44*	tilt: 36.00 /-14.00 	pressure: 0.71*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        143  +0.894s		179.75*/98.42*	tilt: 36.00 /-14.00 	pressure: 0.71*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        144  +0.898s		179.81*/98.40*	tilt: 36.00 /-14.00 	pressure: 0.71*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        145  +0.901s		179.88*/98.38*	tilt: 36.00 /-14.00 	pressure: 0.71*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        146  +0.905s		179.94*/98.36*	tilt: 36.00 /-14.00 	pressure: 0.71*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        147  +0.909s		179.99*/98.33*	tilt: 36.00 /-14.00 	pressure: 0.71 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        148  +0.912s		180.03*/98.32*	tilt: 36.00 /-13.00*	pressure: 0.71*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        149  +0.916s		180.08*/98.31*	tilt: 36.00 /-13.00 	pressure: 0.71*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        150  +0.920s		180.13*/98.29*	tilt: 35.00*/-12.00*	pressure: 0.71*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        151  +0.923s		180.18*/98.26*	tilt: 35.00 /-12.00 	pressure: 0.71*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        152  +0.927s		180.22*/98.25*	tilt: 34.00*/-12.00 	pressure: 0.71*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        153  +0.930s		180.25*/98.23*	tilt: 34.00 /-11.00*	pressure: 0.71*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        154  +0.934s		180.29*/98.19*	tilt: 34.00 /-11.00 	pressure: 0.71*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        155  +0.938s		180.34*/98.17*	tilt: 34.00 /-12.00*	pressure: 0.71*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        156  +0.941s		180.38*/98.14*	tilt: 33.00*/-13.00*	pressure: 0.71*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        157  +0.945s		180.43*/98.10*	tilt: 33.00 /-14.00*	pressure: 0.71*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        158  +0.949s		180.47*/98.06*	tilt: 33.00 /-15.00*	pressure: 0.71*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        159  +0.952s		180.50*/98.04*	tilt: 32.00*/-15.00 	pressure: 0.71*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        160  +0.956s		180.53*/98.02*	tilt: 32.00 /-15.00 	pressure: 0.71*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        161  +0.960s		180.56*/97.97*	tilt: 31.00*/-15.00 	pressure: 0.71*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        162  +0.963s		180.59*/97.95*	tilt: 30.00*/-15.00 	pressure: 0.71*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        163  +0.967s		180.62*/97.93*	tilt: 30.00 /-15.00 	pressure: 0.72*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        164  +0.971s		180.65*/97.92*	tilt: 30.00 /-15.00 	pressure: 0.72*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        165  +0.974s		180.66*/97.90*	tilt: 30.00 /-15.00 	pressure: 0.72*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        166  +0.978s		180.69*/97.88*	tilt: 29.00*/-15.00 	pressure: 0.72*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        167  +0.981s		180.71*/97.86*	tilt: 29.00 /-15.00 	pressure: 0.72*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        168  +0.985s		180.73*/97.84*	tilt: 28.00*/-15.00 	pressure: 0.72*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        169  +0.989s		180.75*/97.83*	tilt: 27.00*/-15.00 	pressure: 0.72*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        170  +0.992s		180.76*/97.83*	tilt: 26.00*/-15.00 	pressure: 0.72*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        171  +0.996s		180.78*/97.80*	tilt: 25.00*/-15.00 	pressure: 0.71*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        172  +1.000s		180.80*/97.78*	tilt: 25.00 /-15.00 	pressure: 0.71*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        173  +1.003s		180.82*/97.78*	tilt: 25.00 /-15.00 	pressure: 0.72*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        174  +1.007s		180.85*/97.76*	tilt: 25.00 /-15.00 	pressure: 0.72*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        175  +1.011s		180.87*/97.74*	tilt: 24.00*/-15.00 	pressure: 0.72*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        176  +1.014s		180.90*/97.72*	tilt: 23.00*/-15.00 	pressure: 0.72*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        177  +1.018s		180.94*/97.68*	tilt: 22.00*/-15.00 	pressure: 0.72*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        178  +1.022s		180.97*/97.65*	tilt: 22.00 /-15.00 	pressure: 0.71*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        179  +1.025s		181.01*/97.62*	tilt: 22.00 /-15.00 	pressure: 0.71*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        180  +1.029s		181.06*/97.58*	tilt: 21.00*/-15.00 	pressure: 0.71*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        181  +1.032s		181.09*/97.54*	tilt: 20.00*/-15.00 	pressure: 0.71*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        182  +1.036s		181.15*/97.51*	tilt: 20.00 /-15.00 	pressure: 0.71 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        183  +1.040s		181.18*/97.47*	tilt: 20.00 /-15.00 	pressure: 0.71*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        184  +1.043s		181.22*/97.43*	tilt: 19.00*/-15.00 	pressure: 0.71*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        185  +1.047s		181.25*/97.38*	tilt: 19.00 /-15.00 	pressure: 0.71*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        186  +1.051s		181.28*/97.34*	tilt: 18.00*/-15.00 	pressure: 0.71 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        187  +1.054s		181.31*/97.29*	tilt: 17.00*/-15.00 	pressure: 0.71*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        188  +1.058s		181.33*/97.24*	tilt: 17.00 /-15.00 	pressure: 0.71*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        189  +1.062s		181.36*/97.19*	tilt: 17.00 /-15.00 	pressure: 0.71*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        190  +1.065s		181.40*/97.13*	tilt: 16.00*/-15.00 	pressure: 0.71*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        191  +1.069s		181.43*/97.08*	tilt: 15.00*/-15.00 	pressure: 0.71*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        192  +1.073s		181.46*/97.01*	tilt: 15.00 /-15.00 	pressure: 0.71*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        193  +1.076s		181.49*/96.94*	tilt: 15.00 /-15.00 	pressure: 0.71*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        194  +1.080s		181.53*/96.88*	tilt: 15.00 /-15.00 	pressure: 0.71*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        195  +1.083s		181.59*/96.76*	tilt: 14.00*/-15.00 	pressure: 0.71*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        196  +1.087s		181.64*/96.66*	tilt: 13.00*/-15.00 	pressure: 0.70*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        197  +1.091s		181.67*/96.58*	tilt: 12.00*/-14.00*	pressure: 0.70*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        198  +1.094s		181.75*/96.47*	tilt: 12.00 /-14.00 	pressure: 0.70*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        199  +1.098s		181.82*/96.35*	tilt: 11.00*/-14.00 	pressure: 0.70*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        200  +1.102s		181.88*/96.26*	tilt: 10.00*/-14.00 	pressure: 0.70*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        201  +1.105s		181.93*/96.18*	tilt: 9.00*/-14.00 	pressure: 0.70*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        202  +1.109s		182.06*/96.00*	tilt: 8.00*/-14.00 	pressure: 0.70*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        203  +1.113s		182.13*/95.89*	tilt: 7.00*/-13.00*	pressure: 0.70*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        204  +1.116s		182.22*/95.78*	tilt: 6.00*/-12.00*	pressure: 0.69*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        205  +1.120s		182.26*/95.68*	tilt: 5.00*/-12.00 	pressure: 0.69*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        206  +1.124s		182.34*/95.55*	tilt: 5.00 /-11.00*	pressure: 0.69*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        207  +1.127s		182.41*/95.42*	tilt: 4.00*/-10.00*	pressure: 0.69*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        208  +1.131s		182.47*/95.28*	tilt: 4.00 /-9.00*	pressure: 0.68*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        209  +1.134s		182.59*/95.11*	tilt: 4.00 /-9.00 	pressure: 0.68*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        210  +1.138s		182.68*/94.98*	tilt: 5.00*/-9.00 	pressure: 0.68*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        211  +1.142s		182.75*/94.86*	tilt: 6.00*/-8.00*	pressure: 0.67*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        212  +1.145s		182.84*/94.73*	tilt: 6.00 /-7.00*	pressure: 0.67*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        213  +1.149s		182.90*/94.61*	tilt: 6.00 /-7.00 	pressure: 0.67*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        214  +1.153s		182.97*/94.47*	tilt: 6.00 /-6.00*	pressure: 0.67*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        215  +1.156s		183.01*/94.38*	tilt: 6.00 /-5.00*	pressure: 0.66*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        216  +1.160s		183.04*/94.30*	tilt: 6.00 /-4.00*	pressure: 0.66*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        217  +1.164s		183.07*/94.22*	tilt: 6.00 /-3.00*	pressure: 0.65*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        218  +1.167s		183.09*/94.15*	tilt: 6.00 /-2.00*	pressure: 0.65*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        219  +1.171s		183.10*/94.07*	tilt: 6.00 /-2.00 	pressure: 0.65*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        220  +1.175s		183.11*/93.98*	tilt: 6.00 /-2.00 	pressure: 0.64*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        221  +1.178s		183.11 /93.91*	tilt: 6.00 /-2.00 	pressure: 0.64*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        222  +1.182s		183.07*/93.75*	tilt: 6.00 /-1.00*	pressure: 0.63*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        223  +1.185s		183.04*/93.65*	tilt: 6.00 /-1.00 	pressure: 0.63*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        224  +1.189s		183.02*/93.58*	tilt: 5.00*/-1.00 	pressure: 0.62*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        225  +1.193s		183.01*/93.50*	tilt: 5.00 /-1.00 	pressure: 0.61*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        226  +1.196s		182.99*/93.45*	tilt: 5.00 /-1.00 	pressure: 0.61*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        227  +1.200s		182.96*/93.41*	tilt: 5.00 /-2.00*	pressure: 0.59*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        228  +1.204s		182.92*/93.36*	tilt: 5.00 /-3.00*	pressure: 0.58*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        229  +1.207s		182.90*/93.33*	tilt: 5.00 /-3.00 	pressure: 0.56*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        230  +1.211s		182.87*/93.32*	tilt: 5.00 /-2.00*	pressure: 0.54*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        231  +1.215s		182.84*/93.32 	tilt: 5.00 /-2.00 	pressure: 0.52*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        232  +1.218s		182.81*/93.33*	tilt: 4.00*/-2.00 	pressure: 0.49*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        233  +1.222s		182.76*/93.36*	tilt: 3.00*/-1.00*	pressure: 0.47*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        234  +1.225s		182.71*/93.39*	tilt: 2.00*/-1.00 	pressure: 0.45*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        235  +1.229s		182.66*/93.44*	tilt: 1.00*/-1.00 	pressure: 0.43*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        236  +1.233s		182.49*/93.58*	tilt: 0.00*/-1.00 	pressure: 0.41*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        237  +1.236s		182.38*/93.77*	tilt: 0.00 /-1.00 	pressure: 0.39*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        238  +1.240s		182.28*/93.86*	tilt: 0.00 /-1.00 	pressure: 0.28*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        239  +1.244s		182.12*/94.01*	tilt: 0.00 /-1.00 	pressure: 0.20*	slider: -1.00 
+ event24  TABLET_TOOL_AXIS        240  +1.247s		181.94*/94.18*	tilt: 0.00 /-1.00 	pressure: 0.14*	slider: -1.00 
+ event24  TABLET_TOOL_TIP              +1.251s		181.75*/94.33*	tilt: 0.00 /-1.00 	pressure: 0.00*	slider: -1.00  up
+ event24  TABLET_TOOL_AXIS             +1.255s		181.56*/94.50*	tilt: 0.00 /-1.00 	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS          2  +1.258s		181.35*/94.64*	tilt: 0.00 /-1.00 	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS          3  +1.262s		181.20*/94.73*	tilt: 0.00 /-1.00 	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS          4  +1.265s		180.97*/94.85*	tilt: 0.00 /-1.00 	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS          5  +1.269s		180.79*/94.89*	tilt: 0.00 /-1.00 	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS          6  +1.273s		180.65*/94.91*	tilt: 0.00 /-1.00 	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS          7  +1.276s		180.47*/94.88*	tilt: 0.00 /-1.00 	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS          8  +1.280s		180.19*/94.78*	tilt: 0.00 /-1.00 	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS          9  +1.284s		179.93*/94.64*	tilt: 0.00 /-1.00 	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         10  +1.287s		179.69*/94.45*	tilt: 0.00 /-1.00 	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         11  +1.291s		179.47*/94.22*	tilt: -1.00*/-1.00 	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         12  +1.294s		179.25*/93.98*	tilt: -1.00 /-1.00 	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         13  +1.298s		179.04*/93.69*	tilt: -1.00 /-1.00 	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         14  +1.302s		178.91*/93.39*	tilt: -1.00 /-1.00 	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         15  +1.305s		178.79*/93.02*	tilt: -1.00 /-1.00 	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         16  +1.309s		178.60*/92.64*	tilt: -1.00 /-1.00 	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         17  +1.312s		178.53*/92.28*	tilt: -1.00 /-1.00 	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         18  +1.316s		178.43*/91.90*	tilt: -1.00 /-1.00 	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         19  +1.320s		178.38*/91.47*	tilt: -1.00 /-1.00 	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         20  +1.323s		178.29*/91.09*	tilt: -1.00 /-1.00 	pressure: 0.00 	slider: -1.00 
+ event24  TABLET_TOOL_AXIS         21  +1.327s		178.29*/90.67*	tilt: -1.00 /-1.00 	pressure: 0.00 	slider: -1.00 
+ 360: Plugin:tablet-proximity-timer - XP-Pen Pen: proximity out timer unloaded
+ event24  TABLET_TOOL_PROXIMITY        +1.330s		178.29 /90.67 	tilt: -1.00 /-1.00 	pressure: 0.00 	slider: -1.00 	pen      ('<unnamed>', 0, id 0) proximity-out
+-event12  POINTER_MOTION               +5.020s	  0.13/  0.00 ( +1.00/ +0.00)
+ event12  POINTER_MOTION            2  +5.024s	  0.37/  0.37 ( +1.00/ +1.00)
+ event12  POINTER_MOTION            3  +5.027s	  0.42/  0.00 ( +1.00/ +0.00)
+ event12  POINTER_MOTION            4  +5.029s	  0.42/  0.00 ( +1.00/ +0.00)
+ event12  POINTER_MOTION            5  +5.030s	  0.00/  0.42 ( +0.00/ +1.00)
+ event12  POINTER_MOTION            6  +5.032s	  0.42/  0.00 ( +1.00/ +0.00)
+ event12  POINTER_MOTION            7  +5.034s	  0.42/  0.42 ( +1.00/ +1.00)
+ event12  POINTER_MOTION            8  +5.035s	  0.42/  0.00 ( +1.00/ +0.00)
+ event12  POINTER_MOTION            9  +5.037s	  0.42/  0.42 ( +1.00/ +1.00)
+ event12  POINTER_MOTION           10  +5.038s	  0.42/  0.00 ( +1.00/ +0.00)
+ event12  POINTER_MOTION           11  +5.040s	  0.42/  0.42 ( +1.00/ +1.00)
+ event12  POINTER_MOTION           12  +5.041s	  0.42/  0.00 ( +1.00/ +0.00)
+ event12  POINTER_MOTION           13  +5.042s	  0.42/  0.00 ( +1.00/ +0.00)
+ event12  POINTER_MOTION           14  +5.043s	  0.46/  0.46 ( +1.00/ +1.00)
+ event12  POINTER_MOTION           15  +5.044s	  0.46/  0.00 ( +1.00/ +0.00)
+ event12  POINTER_MOTION           16  +5.046s	  0.42/  0.42 ( +1.00/ +1.00)
+ event12  POINTER_MOTION           17  +5.047s	  0.42/  0.00 ( +1.00/ +0.00)
+ event12  POINTER_MOTION           18  +5.048s	  0.42/  0.00 ( +1.00/ +0.00)
+ event12  POINTER_MOTION           19  +5.049s	  0.42/  0.00 ( +1.00/ +0.00)
+ event12  POINTER_MOTION           20  +5.050s	  0.46/  0.46 ( +1.00/ +1.00)
+ event12  POINTER_MOTION           21  +5.051s	  0.46/  0.00 ( +1.00/ +0.00)
+ event12  POINTER_MOTION           22  +5.052s	  0.42/  0.00 ( +1.00/ +0.00)
+ event12  POINTER_MOTION           23  +5.053s	  0.42/  0.00 ( +1.00/ +0.00)
+ event12  POINTER_MOTION           24  +5.054s	  0.42/  0.00 ( +1.00/ +0.00)
+ event12  POINTER_MOTION           25  +5.055s	  0.46/  0.46 ( +1.00/ +1.00)
+ event12  POINTER_MOTION           26  +5.056s	  0.46/  0.00 ( +1.00/ +0.00)
+ event12  POINTER_MOTION           27  +5.057s	  0.42/  0.00 ( +1.00/ +0.00)
+ event12  POINTER_MOTION           28  +5.059s	  0.42/  0.42 ( +1.00/ +1.00)
+ event12  POINTER_MOTION           29  +5.060s	  0.42/  0.00 ( +1.00/ +0.00)
+ event12  POINTER_MOTION           30  +5.061s	  0.42/  0.00 ( +1.00/ +0.00)
+ event12  POINTER_MOTION           31  +5.062s	  0.42/  0.00 ( +1.00/ +0.00)
+ event12  POINTER_MOTION           32  +5.063s	  0.42/  0.00 ( +1.00/ +0.00)
+ event12  POINTER_MOTION           33  +5.064s	  0.42/  0.00 ( +1.00/ +0.00)
+ event12  POINTER_MOTION           34  +5.065s	  0.42/  0.00 ( +1.00/ +0.00)
+ event12  POINTER_MOTION           35  +5.066s	  0.42/  0.00 ( +1.00/ +0.00)
+ event12  POINTER_MOTION           36  +5.067s	  0.46/  0.46 ( +1.00/ +1.00)
+ event12  POINTER_MOTION           37  +5.068s	  1.12/  0.00 ( +2.00/ +0.00)
+ event12  POINTER_MOTION           38  +5.069s	  0.52/  0.00 ( +1.00/ +0.00)
+ event12  POINTER_MOTION           39  +5.070s	  0.42/  0.00 ( +1.00/ +0.00)
+ event12  POINTER_MOTION           40  +5.071s	  0.42/  0.00 ( +1.00/ +0.00)
+ event12  POINTER_MOTION           41  +5.072s	  1.04/  0.00 ( +2.00/ +0.00)
+ event12  POINTER_MOTION           42  +5.073s	  0.52/  0.00 ( +1.00/ +0.00)
+ event12  POINTER_MOTION           43  +5.074s	  0.42/  0.00 ( +1.00/ +0.00)
+ event12  POINTER_MOTION           44  +5.075s	  1.04/  0.00 ( +2.00/ +0.00)
+ event12  POINTER_MOTION           45  +5.076s	  0.52/  0.00 ( +1.00/ +0.00)
+ event12  POINTER_MOTION           46  +5.077s	  0.42/  0.00 ( +1.00/ +0.00)
+ event12  POINTER_MOTION           47  +5.078s	  1.84/  0.00 ( +3.00/ +0.00)
+ event12  POINTER_MOTION           48  +5.079s	  0.61/  0.00 ( +1.00/ +0.00)
+ event12  POINTER_MOTION           49  +5.080s	  1.08/ -0.54 ( +2.00/ -1.00)
+ event12  POINTER_MOTION           50  +5.081s	  1.27/  0.00 ( +2.00/ +0.00)
+ event12  POINTER_MOTION           51  +5.082s	  0.52/  0.00 ( +1.00/ +0.00)
+ event12  POINTER_MOTION           52  +5.083s	  1.84/  0.00 ( +3.00/ +0.00)
+ event12  POINTER_MOTION           53  +5.084s	  0.61/  0.00 ( +1.00/ +0.00)
+ event12  POINTER_MOTION           54  +5.085s	  1.85/  0.00 ( +3.00/ +0.00)
+ event12  POINTER_MOTION           55  +5.086s	  0.62/  0.00 ( +1.00/ +0.00)
+ event12  POINTER_MOTION           56  +5.087s	  1.85/  0.00 ( +3.00/ +0.00)
+ event12  POINTER_MOTION           57  +5.088s	  3.32/  0.00 ( +4.00/ +0.00)
+ event12  POINTER_MOTION           58  +5.089s	  1.56/  0.00 ( +2.00/ +0.00)
+ event12  POINTER_MOTION           59  +5.090s	  1.23/  0.00 ( +2.00/ +0.00)
+ event12  POINTER_MOTION           60  +5.091s	  3.11/  0.00 ( +4.00/ +0.00)
+ event12  POINTER_MOTION           61  +5.092s	  0.68/  0.00 ( +1.00/ +0.00)
+ event12  POINTER_MOTION           62  +5.093s	  1.84/  0.00 ( +3.00/ +0.00)
+ event12  POINTER_MOTION           63  +5.094s	  1.42/  0.00 ( +2.00/ +0.00)
+ event12  POINTER_MOTION           64  +5.095s	  1.23/  0.00 ( +2.00/ +0.00)
+ event12  POINTER_MOTION           65  +5.096s	  3.11/  0.00 ( +4.00/ +0.00)
+ event12  POINTER_MOTION           66  +5.097s	  1.56/  0.00 ( +2.00/ +0.00)
+ event12  POINTER_MOTION           67  +5.098s	  1.23/  0.00 ( +2.00/ +0.00)
+ event12  POINTER_MOTION           68  +5.099s	  3.98/  0.00 ( +5.00/ +0.00)
+ event12  POINTER_MOTION           69  +5.100s	  1.59/  0.00 ( +2.00/ +0.00)
+ event12  POINTER_MOTION           70  +5.101s	  2.13/  0.00 ( +3.00/ +0.00)
+ event12  POINTER_MOTION           71  +5.102s	  2.42/  0.00 ( +3.00/ +0.00)
+ event12  POINTER_MOTION           72  +5.103s	  2.42/  0.00 ( +3.00/ +0.00)
+ event12  POINTER_MOTION           73  +5.104s	  2.46/ -0.82 ( +3.00/ -1.00)
+ event12  POINTER_MOTION           74  +5.105s	  2.46/  0.00 ( +3.00/ +0.00)
+ event12  POINTER_MOTION           75  +5.106s	  2.42/  0.00 ( +3.00/ +0.00)
+ event12  POINTER_MOTION           76  +5.107s	  2.42/  0.00 ( +3.00/ +0.00)
+ event12  POINTER_MOTION           77  +5.108s	  2.42/  0.00 ( +3.00/ +0.00)
+ event12  POINTER_MOTION           78  +5.109s	  3.31/  0.00 ( +4.00/ +0.00)
+ event12  POINTER_MOTION           79  +5.110s	  2.49/  0.00 ( +3.00/ +0.00)
+ event12  POINTER_MOTION           80  +5.111s	  2.42/  0.00 ( +3.00/ +0.00)
+ event12  POINTER_MOTION           81  +5.112s	  2.42/  0.00 ( +3.00/ +0.00)
+ event12  POINTER_MOTION           82  +5.113s	  3.31/  0.00 ( +4.00/ +0.00)
+ event12  POINTER_MOTION           83  +5.114s	  2.49/  0.00 ( +3.00/ +0.00)
+ event12  POINTER_MOTION           84  +5.115s	  3.31/  0.00 ( +4.00/ +0.00)
+ event12  POINTER_MOTION           85  +5.116s	  4.17/  0.00 ( +5.00/ +0.00)
+ event12  POINTER_MOTION           86  +5.117s	  2.49/  0.00 ( +3.00/ +0.00)
+ event12  POINTER_MOTION           87  +5.118s	  2.41/  0.00 ( +3.00/ +0.00)
+ event12  POINTER_MOTION           88  +5.119s	  3.31/  0.00 ( +4.00/ +0.00)
+ event12  POINTER_MOTION           89  +5.120s	  3.33/  0.83 ( +4.00/ +1.00)
+ event12  POINTER_MOTION           90  +5.121s	  2.49/  0.00 ( +3.00/ +0.00)
+ event12  POINTER_MOTION           91  +5.122s	  3.32/  0.00 ( +4.00/ +0.00)
+ event12  POINTER_MOTION           92  +5.123s	  3.33/  0.00 ( +4.00/ +0.00)
+ event12  POINTER_MOTION           93  +5.124s	  3.33/  0.00 ( +4.00/ +0.00)
+ event12  POINTER_MOTION           94  +5.125s	  1.56/  0.00 ( +2.00/ +0.00)
+ event12  POINTER_MOTION           95  +5.126s	  2.13/  0.00 ( +3.00/ +0.00)
+ event12  POINTER_MOTION           96  +5.127s	  3.31/  0.00 ( +4.00/ +0.00)
+ event12  POINTER_MOTION           97  +5.128s	  3.33/  0.00 ( +4.00/ +0.00)
+ event12  POINTER_MOTION           98  +5.129s	  3.33/  0.83 ( +4.00/ +1.00)
+ event12  POINTER_MOTION           99  +5.130s	  3.33/  0.00 ( +4.00/ +0.00)
+ event12  POINTER_MOTION          100  +5.131s	  3.33/  0.00 ( +4.00/ +0.00)
+ event12  POINTER_MOTION          101  +5.132s	  3.33/  0.00 ( +4.00/ +0.00)
+ event12  POINTER_MOTION          102  +5.133s	  3.33/  0.00 ( +4.00/ +0.00)
+ event12  POINTER_MOTION          103  +5.134s	  3.33/  0.83 ( +4.00/ +1.00)
+ event12  POINTER_MOTION          104  +5.135s	  3.33/  0.00 ( +4.00/ +0.00)
+ event12  POINTER_MOTION          105  +5.136s	  5.00/  0.00 ( +6.00/ +0.00)
+ event12  POINTER_MOTION          106  +5.137s	  1.59/  0.00 ( +2.00/ +0.00)
+ event12  POINTER_MOTION          107  +5.138s	  3.15/  0.79 ( +4.00/ +1.00)
+ event12  POINTER_MOTION          108  +5.139s	  3.33/  0.00 ( +4.00/ +0.00)
+ event12  POINTER_MOTION          109  +5.140s	  3.33/  0.00 ( +4.00/ +0.00)
+ event12  POINTER_MOTION          110  +5.141s	  3.33/  0.83 ( +4.00/ +1.00)
+ event12  POINTER_MOTION          111  +5.142s	  3.33/  0.00 ( +4.00/ +0.00)
+ event12  POINTER_MOTION          112  +5.143s	  4.17/  0.83 ( +5.00/ +1.00)
+ event12  POINTER_MOTION          113  +5.144s	  3.33/  0.00 ( +4.00/ +0.00)
+ event12  POINTER_MOTION          114  +5.145s	  3.33/  0.00 ( +4.00/ +0.00)
+ event12  POINTER_MOTION          115  +5.146s	  2.49/  0.00 ( +3.00/ +0.00)
+ event12  POINTER_MOTION          116  +5.147s	  3.31/  0.83 ( +4.00/ +1.00)
+ event12  POINTER_MOTION          117  +5.148s	  3.33/  0.83 ( +4.00/ +1.00)
+ event12  POINTER_MOTION          118  +5.149s	  3.33/  0.00 ( +4.00/ +0.00)
+ event12  POINTER_MOTION          119  +5.150s	  2.49/  0.00 ( +3.00/ +0.00)
+ event12  POINTER_MOTION          120  +5.151s	  3.31/  0.83 ( +4.00/ +1.00)
+ event12  POINTER_MOTION          121  +5.152s	  2.49/  0.00 ( +3.00/ +0.00)
+ event12  POINTER_MOTION          122  +5.153s	  3.32/  0.83 ( +4.00/ +1.00)
+ event12  POINTER_MOTION          123  +5.154s	  2.49/  0.00 ( +3.00/ +0.00)
+ event12  POINTER_MOTION          124  +5.155s	  2.46/  0.82 ( +3.00/ +1.00)
+ event12  POINTER_MOTION          125  +5.156s	  3.33/  0.00 ( +4.00/ +0.00)
+ event12  POINTER_MOTION          126  +5.157s	  3.33/  0.00 ( +4.00/ +0.00)
+ event12  POINTER_MOTION          127  +5.158s	  2.50/  0.83 ( +3.00/ +1.00)
+ event12  POINTER_MOTION          128  +5.159s	  2.46/  0.00 ( +3.00/ +0.00)
+ event12  POINTER_MOTION          129  +5.160s	  2.42/  0.00 ( +3.00/ +0.00)
+ event12  POINTER_MOTION          130  +5.161s	  3.31/  0.83 ( +4.00/ +1.00)
+ event12  POINTER_MOTION          131  +5.162s	  2.49/  0.00 ( +3.00/ +0.00)
+ event12  POINTER_MOTION          132  +5.163s	  1.47/  0.73 ( +2.00/ +1.00)
+ event12  POINTER_MOTION          133  +5.164s	  2.20/  0.00 ( +3.00/ +0.00)
+ event12  POINTER_MOTION          134  +5.165s	  2.42/  0.00 ( +3.00/ +0.00)
+ event12  POINTER_MOTION          135  +5.166s	  2.46/  0.82 ( +3.00/ +1.00)
+ event12  POINTER_MOTION          136  +5.167s	  2.46/  0.00 ( +3.00/ +0.00)
+ event12  POINTER_MOTION          137  +5.168s	  1.42/  0.00 ( +2.00/ +0.00)
+ event12  POINTER_MOTION          138  +5.169s	  2.13/  0.00 ( +3.00/ +0.00)
+ event12  POINTER_MOTION          139  +5.170s	  2.46/  0.82 ( +3.00/ +1.00)
+ event12  POINTER_MOTION          140  +5.171s	  1.45/  0.00 ( +2.00/ +0.00)
+ event12  POINTER_MOTION          141  +5.172s	  2.13/  0.00 ( +3.00/ +0.00)
+ event12  POINTER_MOTION          142  +5.173s	  1.47/  0.73 ( +2.00/ +1.00)
+ event12  POINTER_MOTION          143  +5.174s	  2.20/  0.00 ( +3.00/ +0.00)
+ event12  POINTER_MOTION          144  +5.175s	  1.42/  0.00 ( +2.00/ +0.00)
+ event12  POINTER_MOTION          145  +5.176s	  2.13/  0.00 ( +3.00/ +0.00)
+ event12  POINTER_MOTION          146  +5.177s	  0.61/  0.00 ( +1.00/ +0.00)
+ event12  POINTER_MOTION          147  +5.178s	  1.89/  0.63 ( +3.00/ +1.00)
+ event12  POINTER_MOTION          148  +5.179s	  1.45/  0.00 ( +2.00/ +0.00)
+ event12  POINTER_MOTION          149  +5.180s	  1.23/  0.00 ( +2.00/ +0.00)
+ event12  POINTER_MOTION          150  +5.181s	  1.23/  0.00 ( +2.00/ +0.00)
+ event12  POINTER_MOTION          151  +5.182s	  1.23/  0.00 ( +2.00/ +0.00)
+ event12  POINTER_MOTION          152  +5.183s	  1.23/  0.00 ( +2.00/ +0.00)
+ event12  POINTER_MOTION          153  +5.184s	  1.23/  0.00 ( +2.00/ +0.00)
+ event12  POINTER_MOTION          154  +5.185s	  1.23/  0.00 ( +2.00/ +0.00)
+ event12  POINTER_MOTION          155  +5.186s	  1.23/  0.00 ( +2.00/ +0.00)
+ event12  POINTER_MOTION          156  +5.187s	  1.23/  0.00 ( +2.00/ +0.00)
+ event12  POINTER_MOTION          157  +5.188s	  0.52/  0.00 ( +1.00/ +0.00)
+ event12  POINTER_MOTION          158  +5.189s	  1.04/  0.00 ( +2.00/ +0.00)
+ event12  POINTER_MOTION          159  +5.190s	  1.23/  0.00 ( +2.00/ +0.00)
+ event12  POINTER_MOTION          160  +5.191s	  1.23/  0.00 ( +2.00/ +0.00)
+ event12  POINTER_MOTION          161  +5.192s	  0.52/  0.00 ( +1.00/ +0.00)
+ event12  POINTER_MOTION          162  +5.193s	  1.04/  0.00 ( +2.00/ +0.00)
+ event12  POINTER_MOTION          163  +5.194s	  1.23/  0.00 ( +2.00/ +0.00)
+ event12  POINTER_MOTION          164  +5.195s	  1.23/  0.00 ( +2.00/ +0.00)
+ event12  POINTER_MOTION          165  +5.196s	  1.23/  0.00 ( +2.00/ +0.00)
+ event12  POINTER_MOTION          166  +5.197s	  1.23/  0.00 ( +2.00/ +0.00)
+ event12  POINTER_MOTION          167  +5.198s	  1.23/  0.00 ( +2.00/ +0.00)
+ event12  POINTER_MOTION          168  +5.200s	  1.04/  0.00 ( +2.00/ +0.00)
+ event12  POINTER_MOTION          169  +5.201s	  1.04/  0.00 ( +2.00/ +0.00)
+ event12  POINTER_MOTION          170  +5.202s	  1.23/  0.00 ( +2.00/ +0.00)
+ event12  POINTER_MOTION          171  +5.203s	  0.52/  0.00 ( +1.00/ +0.00)
+ event12  POINTER_MOTION          172  +5.204s	  1.08/ -0.54 ( +2.00/ -1.00)
+ event12  POINTER_MOTION          173  +5.205s	  1.28/  0.00 ( +2.00/ +0.00)
+ event12  POINTER_MOTION          174  +5.206s	  0.52/  0.00 ( +1.00/ +0.00)
+ event12  POINTER_MOTION          175  +5.207s	  1.04/  0.00 ( +2.00/ +0.00)
+ event12  POINTER_MOTION          176  +5.208s	  1.23/  0.00 ( +2.00/ +0.00)
+ event12  POINTER_MOTION          177  +5.209s	  1.27/ -0.64 ( +2.00/ -1.00)
+ event12  POINTER_MOTION          178  +5.210s	  0.54/  0.00 ( +1.00/ +0.00)
+ event12  POINTER_MOTION          179  +5.211s	  1.84/  0.00 ( +3.00/ +0.00)
+ event12  POINTER_MOTION          180  +5.212s	  1.47/ -0.73 ( +2.00/ -1.00)
+ event12  POINTER_MOTION          181  +5.213s	  0.54/  0.00 ( +1.00/ +0.00)
+ event12  POINTER_MOTION          182  +5.214s	  1.04/  0.00 ( +2.00/ +0.00)
+ event12  POINTER_MOTION          183  +5.215s	  0.52/  0.00 ( +1.00/ +0.00)
+ event12  POINTER_MOTION          184  +5.216s	  1.04/  0.00 ( +2.00/ +0.00)
+ event12  POINTER_MOTION          185  +5.217s	  0.56/ -0.56 ( +1.00/ -1.00)
+ event12  POINTER_MOTION          186  +5.218s	  0.46/  0.00 ( +1.00/ +0.00)
+ event12  POINTER_MOTION          187  +5.219s	  0.42/  0.00 ( +1.00/ +0.00)
+ event12  POINTER_MOTION          188  +5.220s	  1.04/  0.00 ( +2.00/ +0.00)
+ event12  POINTER_MOTION          189  +5.221s	  0.52/  0.00 ( +1.00/ +0.00)
+ event12  POINTER_MOTION          190  +5.222s	  0.42/  0.00 ( +1.00/ +0.00)
+ event12  POINTER_MOTION          191  +5.223s	  0.42/  0.00 ( +1.00/ +0.00)
+ event12  POINTER_MOTION          192  +5.224s	  0.42/  0.00 ( +1.00/ +0.00)
+ event12  POINTER_MOTION          193  +5.225s	  0.46/ -0.46 ( +1.00/ -1.00)
+ event12  POINTER_MOTION          194  +5.226s	  0.46/  0.00 ( +1.00/ +0.00)
+ event12  POINTER_MOTION          195  +5.227s	  0.42/  0.00 ( +1.00/ +0.00)
+ event12  POINTER_MOTION          196  +5.228s	  0.42/  0.00 ( +1.00/ +0.00)
+ event12  POINTER_MOTION          197  +5.230s	  0.42/  0.00 ( +1.00/ +0.00)
+ event12  POINTER_MOTION          198  +5.231s	  0.42/  0.00 ( +1.00/ +0.00)
+ event12  POINTER_MOTION          199  +5.232s	  0.42/  0.00 ( +1.00/ +0.00)
+ event12  POINTER_MOTION          200  +5.233s	  0.00/ -0.42 ( +0.00/ -1.00)
+ event12  POINTER_MOTION          201  +5.236s	  0.42/  0.00 ( +1.00/ +0.00)
+ event12  POINTER_MOTION          202  +5.241s	  0.42/  0.00 ( +1.00/ +0.00)
+ event12  POINTER_MOTION          203  +5.408s	 -0.29/  0.00 ( -1.00/ +0.00)
+ event12  POINTER_MOTION          204  +5.479s	 -0.14/  0.00 ( -1.00/ +0.00)
+ event12  POINTER_MOTION          205  +5.483s	 -0.33/  0.00 ( -1.00/ +0.00)
+ event12  POINTER_MOTION          206  +5.486s	 -0.42/  0.00 ( -1.00/ +0.00)
+ event12  POINTER_MOTION          207  +5.487s	 -0.42/  0.00 ( -1.00/ +0.00)
+ event12  POINTER_MOTION          208  +5.488s	  0.00/  0.42 ( +0.00/ +1.00)
+ event12  POINTER_MOTION          209  +5.489s	 -1.04/  0.00 ( -2.00/ +0.00)
+ event12  POINTER_MOTION          210  +5.490s	 -0.52/  0.00 ( -1.00/ +0.00)
+ event12  POINTER_MOTION          211  +5.491s	 -1.08/  0.54 ( -2.00/ +1.00)
+ event12  POINTER_MOTION          212  +5.492s	 -0.54/  0.00 ( -1.00/ +0.00)
+ event12  POINTER_MOTION          213  +5.493s	 -0.46/  0.46 ( -1.00/ +1.00)
+ event12  POINTER_MOTION          214  +5.494s	 -1.96/  0.00 ( -3.00/ +0.00)
+ event12  POINTER_MOTION          215  +5.495s	 -0.61/  0.00 ( -1.00/ +0.00)
+ event12  POINTER_MOTION          216  +5.496s	 -1.04/  0.00 ( -2.00/ +0.00)
+ event12  POINTER_MOTION          217  +5.497s	 -1.27/  0.64 ( -2.00/ +1.00)
+ event12  POINTER_MOTION          218  +5.498s	 -0.54/  0.00 ( -1.00/ +0.00)
+ event12  POINTER_MOTION          219  +5.499s	 -1.89/  0.63 ( -3.00/ +1.00)
+ event12  POINTER_MOTION          220  +5.500s	 -0.63/  0.00 ( -1.00/ +0.00)
+ event12  POINTER_MOTION          221  +5.501s	 -1.89/  0.63 ( -3.00/ +1.00)
+ event12  POINTER_MOTION          222  +5.502s	 -1.45/  0.00 ( -2.00/ +0.00)
+ event12  POINTER_MOTION          223  +5.503s	 -1.28/  0.64 ( -2.00/ +1.00)
+ event12  POINTER_MOTION          224  +5.504s	 -2.20/  0.00 ( -3.00/ +0.00)
+ event12  POINTER_MOTION          225  +5.505s	 -1.47/  0.73 ( -2.00/ +1.00)
+ event12  POINTER_MOTION          226  +5.506s	 -2.20/  0.00 ( -3.00/ +0.00)
+ event12  POINTER_MOTION          227  +5.507s	 -1.42/  0.00 ( -2.00/ +0.00)
+ event12  POINTER_MOTION          228  +5.508s	 -2.18/  0.73 ( -3.00/ +1.00)
+ event12  POINTER_MOTION          229  +5.509s	 -1.45/  0.00 ( -2.00/ +0.00)
+ event12  POINTER_MOTION          230  +5.510s	 -2.18/  0.73 ( -3.00/ +1.00)
+ event12  POINTER_MOTION          231  +5.511s	 -2.46/  0.00 ( -3.00/ +0.00)
+ event12  POINTER_MOTION          232  +5.512s	 -1.47/  0.73 ( -2.00/ +1.00)
+ event12  POINTER_MOTION          233  +5.513s	 -2.20/  0.00 ( -3.00/ +0.00)
+ event12  POINTER_MOTION          234  +5.514s	 -2.46/  0.82 ( -3.00/ +1.00)
+ event12  POINTER_MOTION          235  +5.515s	 -2.46/  0.00 ( -3.00/ +0.00)
+ event12  POINTER_MOTION          236  +5.516s	 -3.32/  0.83 ( -4.00/ +1.00)
+ event12  POINTER_MOTION          237  +5.517s	 -0.69/  0.00 ( -1.00/ +0.00)
+ event12  POINTER_MOTION          238  +5.518s	 -1.84/  0.00 ( -3.00/ +0.00)
+ event12  POINTER_MOTION          239  +5.519s	 -2.42/  0.00 ( -3.00/ +0.00)
+ event12  POINTER_MOTION          240  +5.520s	 -3.31/  0.83 ( -4.00/ +1.00)
+ event12  POINTER_MOTION          241  +5.521s	 -2.49/  0.00 ( -3.00/ +0.00)
+ event12  POINTER_MOTION          242  +5.522s	 -3.31/  0.83 ( -4.00/ +1.00)
+ event12  POINTER_MOTION          243  +5.523s	 -5.00/  0.83 ( -6.00/ +1.00)
+ event12  POINTER_MOTION          244  +5.524s	 -2.49/  0.00 ( -3.00/ +0.00)
+ event12  POINTER_MOTION          245  +5.525s	 -3.31/  0.00 ( -4.00/ +0.00)
+ event12  POINTER_MOTION          246  +5.526s	 -3.33/  0.00 ( -4.00/ +0.00)
+ event12  POINTER_MOTION          247  +5.527s	 -2.50/  0.83 ( -3.00/ +1.00)
+ event12  POINTER_MOTION          248  +5.528s	 -3.33/  0.00 ( -4.00/ +0.00)
+ event12  POINTER_MOTION          249  +5.529s	 -3.33/  0.00 ( -4.00/ +0.00)
+ event12  POINTER_MOTION          250  +5.530s	 -3.33/  0.00 ( -4.00/ +0.00)
+ event12  POINTER_MOTION          251  +5.531s	 -3.33/  0.83 ( -4.00/ +1.00)
+ event12  POINTER_MOTION          252  +5.532s	 -3.33/  0.00 ( -4.00/ +0.00)
+ event12  POINTER_MOTION          253  +5.533s	 -3.33/  0.00 ( -4.00/ +0.00)
+ event12  POINTER_MOTION          254  +5.534s	 -3.33/  0.83 ( -4.00/ +1.00)
+ event12  POINTER_MOTION          255  +5.535s	 -5.00/  0.00 ( -6.00/ +0.00)
+ event12  POINTER_MOTION          256  +5.536s	 -4.17/  0.00 ( -5.00/ +0.00)
+ event12  POINTER_MOTION          257  +5.537s	 -3.33/  0.00 ( -4.00/ +0.00)
+ event12  POINTER_MOTION          258  +5.538s	 -4.17/  0.00 ( -5.00/ +0.00)
+ event12  POINTER_MOTION          259  +5.539s	 -3.33/  0.00 ( -4.00/ +0.00)
+ event12  POINTER_MOTION          260  +5.540s	 -4.17/  0.00 ( -5.00/ +0.00)
+ event12  POINTER_MOTION          261  +5.541s	 -3.33/  0.00 ( -4.00/ +0.00)
+ event12  POINTER_MOTION          262  +5.542s	 -4.17/  0.00 ( -5.00/ +0.00)
+ event12  POINTER_MOTION          263  +5.543s	 -3.33/  0.00 ( -4.00/ +0.00)
+ event12  POINTER_MOTION          264  +5.544s	 -4.17/  0.00 ( -5.00/ +0.00)
+ event12  POINTER_MOTION          265  +5.545s	 -2.49/  0.00 ( -3.00/ +0.00)
+ event12  POINTER_MOTION          266  +5.546s	 -4.14/  0.00 ( -5.00/ +0.00)
+ event12  POINTER_MOTION          267  +5.547s	 -3.33/  0.00 ( -4.00/ +0.00)
+ event12  POINTER_MOTION          268  +5.548s	 -4.17/  0.00 ( -5.00/ +0.00)
+ event12  POINTER_MOTION          269  +5.549s	 -4.17/  0.00 ( -5.00/ +0.00)
+ event12  POINTER_MOTION          270  +5.550s	 -4.17/  0.00 ( -5.00/ +0.00)
+ event12  POINTER_MOTION          271  +5.551s	 -4.17/  0.00 ( -5.00/ +0.00)
+ event12  POINTER_MOTION          272  +5.552s	 -4.17/  0.00 ( -5.00/ +0.00)
+ event12  POINTER_MOTION          273  +5.553s	 -4.17/  0.00 ( -5.00/ +0.00)
+ event12  POINTER_MOTION          274  +5.554s	 -4.17/  0.00 ( -5.00/ +0.00)
+ event12  POINTER_MOTION          275  +5.555s	 -4.17/  0.00 ( -5.00/ +0.00)
+ event12  POINTER_MOTION          276  +5.556s	 -4.17/ -0.83 ( -5.00/ -1.00)
+ event12  POINTER_MOTION          277  +5.557s	 -4.17/  0.00 ( -5.00/ +0.00)
+ event12  POINTER_MOTION          278  +5.558s	 -8.33/ -0.83 (-10.00/ -1.00)
+ event12  POINTER_MOTION          279  +5.559s	 -1.59/  0.00 ( -2.00/ +0.00)
+ event12  POINTER_MOTION          280  +5.560s	 -3.98/  0.00 ( -5.00/ +0.00)
+ event12  POINTER_MOTION          281  +5.561s	 -4.17/ -0.83 ( -5.00/ -1.00)
+ event12  POINTER_MOTION          282  +5.562s	 -4.17/  0.00 ( -5.00/ +0.00)
+ event12  POINTER_MOTION          283  +5.563s	 -4.17/ -0.83 ( -5.00/ -1.00)
+ event12  POINTER_MOTION          284  +5.564s	 -5.83/  0.00 ( -7.00/ +0.00)
+ event12  POINTER_MOTION          285  +5.565s	 -4.17/ -0.83 ( -5.00/ -1.00)
+ event12  POINTER_MOTION          286  +5.566s	 -4.17/  0.00 ( -5.00/ +0.00)
+ event12  POINTER_MOTION          287  +5.567s	 -4.17/ -0.83 ( -5.00/ -1.00)
+ event12  POINTER_MOTION          288  +5.568s	 -4.17/ -0.83 ( -5.00/ -1.00)
+ event12  POINTER_MOTION          289  +5.569s	 -5.00/  0.00 ( -6.00/ +0.00)
+ event12  POINTER_MOTION          290  +5.570s	 -4.17/ -0.83 ( -5.00/ -1.00)
+ event12  POINTER_MOTION          291  +5.571s	 -4.17/  0.00 ( -5.00/ +0.00)
+ event12  POINTER_MOTION          292  +5.572s	 -5.00/ -0.83 ( -6.00/ -1.00)
+ event12  POINTER_MOTION          293  +5.573s	 -3.33/ -0.83 ( -4.00/ -1.00)
+ event12  POINTER_MOTION          294  +5.574s	 -4.17/  0.00 ( -5.00/ +0.00)
+ event12  POINTER_MOTION          295  +5.575s	 -5.00/ -0.83 ( -6.00/ -1.00)
+ event12  POINTER_MOTION          296  +5.576s	 -4.17/  0.00 ( -5.00/ +0.00)
+ event12  POINTER_MOTION          297  +5.577s	 -4.17/ -0.83 ( -5.00/ -1.00)
+ event12  POINTER_MOTION          298  +5.578s	 -2.49/  0.00 ( -3.00/ +0.00)
+ event12  POINTER_MOTION          299  +5.579s	 -4.14/ -0.83 ( -5.00/ -1.00)
+ event12  POINTER_MOTION          300  +5.580s	 -4.17/  0.00 ( -5.00/ +0.00)
+ event12  POINTER_MOTION          301  +5.581s	 -4.17/ -0.83 ( -5.00/ -1.00)
+ event12  POINTER_MOTION          302  +5.582s	 -5.00/ -0.83 ( -6.00/ -1.00)
+ event12  POINTER_MOTION          303  +5.583s	 -3.33/ -0.83 ( -4.00/ -1.00)
+ event12  POINTER_MOTION          304  +5.584s	 -4.17/  0.00 ( -5.00/ +0.00)
+ event12  POINTER_MOTION          305  +5.585s	 -9.17/ -0.83 (-11.00/ -1.00)
+ event12  POINTER_MOTION          306  +5.586s	 -1.61/ -0.80 ( -2.00/ -1.00)
+ event12  POINTER_MOTION          307  +5.587s	 -4.02/  0.00 ( -5.00/ +0.00)
+ event12  POINTER_MOTION          308  +5.588s	 -4.17/ -0.83 ( -5.00/ -1.00)
+ event12  POINTER_MOTION          309  +5.589s	 -4.17/  0.00 ( -5.00/ +0.00)
+ event12  POINTER_MOTION          310  +5.590s	 -3.33/ -0.83 ( -4.00/ -1.00)
+ event12  POINTER_MOTION          311  +5.591s	 -4.17/  0.00 ( -5.00/ +0.00)
+ event12  POINTER_MOTION          312  +5.592s	 -2.49/  0.00 ( -3.00/ +0.00)
+ event12  POINTER_MOTION          313  +5.593s	 -4.14/ -0.83 ( -5.00/ -1.00)
+ event12  POINTER_MOTION          314  +5.594s	 -4.17/ -0.83 ( -5.00/ -1.00)
+ event12  POINTER_MOTION          315  +5.595s	 -7.50/ -0.83 ( -9.00/ -1.00)
+ event12  POINTER_MOTION          316  +5.596s	 -4.17/  0.00 ( -5.00/ +0.00)
+ event12  POINTER_MOTION          317  +5.597s	 -3.33/ -0.83 ( -4.00/ -1.00)
+ event12  POINTER_MOTION          318  +5.598s	 -4.17/  0.00 ( -5.00/ +0.00)
+ event12  POINTER_MOTION          319  +5.599s	 -4.17/  0.00 ( -5.00/ +0.00)
+ event12  POINTER_MOTION          320  +5.600s	 -3.33/ -0.83 ( -4.00/ -1.00)
+ event12  POINTER_MOTION          321  +5.601s	 -4.17/ -0.83 ( -5.00/ -1.00)
+ event12  POINTER_MOTION          322  +5.602s	 -3.33/  0.00 ( -4.00/ +0.00)
+ event12  POINTER_MOTION          323  +5.603s	 -4.17/ -0.83 ( -5.00/ -1.00)
+ event12  POINTER_MOTION          324  +5.604s	 -3.33/  0.00 ( -4.00/ +0.00)
+ event12  POINTER_MOTION          325  +5.605s	 -4.17/ -0.83 ( -5.00/ -1.00)
+ event12  POINTER_MOTION          326  +5.606s	 -3.33/  0.00 ( -4.00/ +0.00)
+ event12  POINTER_MOTION          327  +5.607s	 -3.33/  0.00 ( -4.00/ +0.00)
+ event12  POINTER_MOTION          328  +5.608s	 -3.33/  0.00 ( -4.00/ +0.00)
+ event12  POINTER_MOTION          329  +5.609s	 -4.17/ -0.83 ( -5.00/ -1.00)
+ event12  POINTER_MOTION          330  +5.610s	 -3.33/ -0.83 ( -4.00/ -1.00)
+ event12  POINTER_MOTION          331  +5.611s	 -4.17/  0.00 ( -5.00/ +0.00)
+ event12  POINTER_MOTION          332  +5.612s	 -3.33/  0.00 ( -4.00/ +0.00)
+ event12  POINTER_MOTION          333  +5.613s	 -3.33/ -0.83 ( -4.00/ -1.00)
+ event12  POINTER_MOTION          334  +5.614s	 -3.33/  0.00 ( -4.00/ +0.00)
+ event12  POINTER_MOTION          335  +5.615s	 -4.17/  0.00 ( -5.00/ +0.00)
+ event12  POINTER_MOTION          336  +5.616s	 -0.78/ -0.78 ( -1.00/ -1.00)
+ event12  POINTER_MOTION          337  +5.617s	 -2.89/  0.00 ( -4.00/ +0.00)
+ event12  POINTER_MOTION          338  +5.618s	 -7.50/ -0.83 ( -9.00/ -1.00)
+ event12  POINTER_MOTION          339  +5.619s	 -3.33/  0.00 ( -4.00/ +0.00)
+ event12  POINTER_MOTION          340  +5.620s	 -3.33/ -0.83 ( -4.00/ -1.00)
+ event12  POINTER_MOTION          341  +5.621s	 -3.33/  0.00 ( -4.00/ +0.00)
+ event12  POINTER_MOTION          342  +5.622s	 -0.68/  0.00 ( -1.00/ +0.00)
+ event12  POINTER_MOTION          343  +5.623s	 -2.73/  0.00 ( -4.00/ +0.00)
+ event12  POINTER_MOTION          344  +5.624s	 -3.33/  0.00 ( -4.00/ +0.00)
+ event12  POINTER_MOTION          345  +5.625s	 -3.33/ -0.83 ( -4.00/ -1.00)
+ event12  POINTER_MOTION          346  +5.626s	 -3.33/  0.00 ( -4.00/ +0.00)
+ event12  POINTER_MOTION          347  +5.627s	 -3.33/  0.00 ( -4.00/ +0.00)
+ event12  POINTER_MOTION          348  +5.628s	 -3.33/ -0.83 ( -4.00/ -1.00)
+ event12  POINTER_MOTION          349  +5.629s	 -3.33/  0.00 ( -4.00/ +0.00)
+ event12  POINTER_MOTION          350  +5.630s	 -2.49/  0.00 ( -3.00/ +0.00)
+ event12  POINTER_MOTION          351  +5.631s	 -2.47/ -0.82 ( -3.00/ -1.00)
+ event12  POINTER_MOTION          352  +5.632s	 -3.33/  0.00 ( -4.00/ +0.00)
+ event12  POINTER_MOTION          353  +5.633s	 -2.49/  0.00 ( -3.00/ +0.00)
+ event12  POINTER_MOTION          354  +5.634s	 -3.31/  0.00 ( -4.00/ +0.00)
+ event12  POINTER_MOTION          355  +5.635s	 -2.49/  0.00 ( -3.00/ +0.00)
+ event12  POINTER_MOTION          356  +5.636s	 -1.42/  0.00 ( -2.00/ +0.00)
+ event12  POINTER_MOTION          357  +5.637s	 -3.15/ -0.79 ( -4.00/ -1.00)
+ event12  POINTER_MOTION          358  +5.638s	 -2.49/  0.00 ( -3.00/ +0.00)
+ event12  POINTER_MOTION          359  +5.639s	 -3.31/  0.00 ( -4.00/ +0.00)
+ event12  POINTER_MOTION          360  +5.640s	 -2.50/ -0.83 ( -3.00/ -1.00)
+ event12  POINTER_MOTION          361  +5.641s	 -2.46/  0.00 ( -3.00/ +0.00)
+ event12  POINTER_MOTION          362  +5.642s	 -2.42/  0.00 ( -3.00/ +0.00)
+ event12  POINTER_MOTION          363  +5.643s	 -2.42/  0.00 ( -3.00/ +0.00)
+ event12  POINTER_MOTION          364  +5.644s	 -1.42/  0.00 ( -2.00/ +0.00)
+ event12  POINTER_MOTION          365  +5.645s	 -3.11/  0.00 ( -4.00/ +0.00)
+ event12  POINTER_MOTION          366  +5.646s	 -4.17/ -0.83 ( -5.00/ -1.00)
+ event12  POINTER_MOTION          367  +5.647s	 -2.49/  0.00 ( -3.00/ +0.00)
+ event12  POINTER_MOTION          368  +5.648s	 -2.42/  0.00 ( -3.00/ +0.00)
+ event12  POINTER_MOTION          369  +5.649s	 -0.62/  0.00 ( -1.00/ +0.00)
+ event12  POINTER_MOTION          370  +5.650s	 -1.04/  0.00 ( -2.00/ +0.00)
+ event12  POINTER_MOTION          371  +5.651s	 -1.23/  0.00 ( -2.00/ +0.00)
+ event12  POINTER_MOTION          372  +5.652s	 -2.17/ -0.72 ( -3.00/ -1.00)
+ event12  POINTER_MOTION          373  +5.653s	 -1.45/  0.00 ( -2.00/ +0.00)
+ event12  POINTER_MOTION          374  +5.654s	 -2.13/  0.00 ( -3.00/ +0.00)
+ event12  POINTER_MOTION          375  +5.655s	 -2.42/  0.00 ( -3.00/ +0.00)
+ event12  POINTER_MOTION          376  +5.656s	 -0.61/  0.00 ( -1.00/ +0.00)
+ event12  POINTER_MOTION          377  +5.657s	 -1.84/  0.00 ( -3.00/ +0.00)
+ event12  POINTER_MOTION          378  +5.658s	 -1.46/ -0.73 ( -2.00/ -1.00)
+ event12  POINTER_MOTION          379  +5.659s	 -3.20/  0.00 ( -4.00/ +0.00)
+ event12  POINTER_MOTION          380  +5.661s	 -2.19/  0.00 ( -3.00/ +0.00)
+ event12  POINTER_MOTION          381  +5.662s	 -0.47/  0.00 ( -1.00/ +0.00)
+ event12  POINTER_MOTION          382  +5.663s	 -1.04/  0.00 ( -2.00/ +0.00)
+ event12  POINTER_MOTION          383  +5.664s	 -1.23/  0.00 ( -2.00/ +0.00)
+ event12  POINTER_MOTION          384  +5.665s	 -0.52/  0.00 ( -1.00/ +0.00)
+ event12  POINTER_MOTION          385  +5.666s	 -1.85/  0.00 ( -3.00/ +0.00)
+ event12  POINTER_MOTION          386  +5.667s	 -1.47/ -0.73 ( -2.00/ -1.00)
+ event12  POINTER_MOTION          387  +5.668s	 -1.27/  0.00 ( -2.00/ +0.00)
+ event12  POINTER_MOTION          388  +5.669s	 -0.52/  0.00 ( -1.00/ +0.00)
+ event12  POINTER_MOTION          389  +5.670s	 -1.04/  0.00 ( -2.00/ +0.00)
+ event12  POINTER_MOTION          390  +5.671s	 -0.52/  0.00 ( -1.00/ +0.00)
+ event12  POINTER_MOTION          391  +5.672s	 -0.42/  0.00 ( -1.00/ +0.00)
+ event12  POINTER_MOTION          392  +5.673s	 -1.04/  0.00 ( -2.00/ +0.00)
+ event12  POINTER_MOTION          393  +5.674s	 -1.23/  0.00 ( -2.00/ +0.00)
+ event12  POINTER_MOTION          394  +5.675s	 -0.52/  0.00 ( -1.00/ +0.00)
+ event12  POINTER_MOTION          395  +5.676s	 -1.04/  0.00 ( -2.00/ +0.00)
+ event12  POINTER_MOTION          396  +5.678s	 -1.04/  0.00 ( -2.00/ +0.00)
+ event12  POINTER_MOTION          397  +5.679s	 -0.42/  0.00 ( -1.00/ +0.00)
+ event12  POINTER_MOTION          398  +5.680s	 -0.42/  0.00 ( -1.00/ +0.00)
+ event12  POINTER_MOTION          399  +5.681s	 -0.42/  0.00 ( -1.00/ +0.00)
+ event12  POINTER_MOTION          400  +5.682s	 -0.42/  0.00 ( -1.00/ +0.00)
+ event12  POINTER_MOTION          401  +5.683s	 -0.46/ -0.46 ( -1.00/ -1.00)
+ event12  POINTER_MOTION          402  +5.684s	 -0.46/  0.00 ( -1.00/ +0.00)
+ event12  POINTER_MOTION          403  +5.685s	 -0.42/  0.00 ( -1.00/ +0.00)
+ event12  POINTER_MOTION          404  +5.687s	 -0.85/  0.00 ( -2.00/ +0.00)
+ event12  POINTER_MOTION          405  +5.688s	 -0.42/  0.00 ( -1.00/ +0.00)
+ event12  POINTER_MOTION          406  +5.690s	 -0.42/  0.00 ( -1.00/ +0.00)
+ event12  POINTER_MOTION          407  +5.693s	 -0.42/  0.00 ( -1.00/ +0.00)
+ event12  POINTER_MOTION          408  +5.694s	 -0.42/  0.00 ( -1.00/ +0.00)
+ event12  POINTER_MOTION          409  +5.697s	 -0.42/  0.00 ( -1.00/ +0.00)
+ event12  POINTER_MOTION          410  +5.765s	  0.37/  0.00 ( +1.00/ +0.00)
+ event12  POINTER_MOTION          411  +5.778s	  0.20/  0.00 ( +1.00/ +0.00)
+ event12  POINTER_MOTION          412  +5.795s	  0.24/  0.00 ( +1.00/ +0.00)
+-event2   KEYBOARD_KEY                 +6.770s	*** (-1) pressed
+ event2   KEYBOARD_KEY                 +6.850s	*** (-1) released
