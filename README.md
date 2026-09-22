@@ -24,3 +24,9 @@ UI GTK4/Wayland → API stable → CreativeCore C++ → OpenGL/EGL ou CPU fallba
 - Le fallback Cairo/CPU reste actif pour la présentation finale pendant la stabilisation du présentateur GPU.
 - Le contexte EGL de l’alpha est unique et hors écran ; la présentation directe sur surface Wayland reste une étape dédiée.
 - Le GPU peut être désactivé explicitement avec `CREATIVE_DISABLE_GPU=1` pour tester le fallback CPU.
+
+===================En Cours===================
+Réorientation d'Atlas vers sont but premier : Logiciel d'illustration vectorisé simplifié
+Conserver les perfomance et la gestion mémoire/ram d'Atlas
+Garder GTK4 ? 
+Bref pleins de truc 
