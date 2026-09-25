@@ -30,3 +30,7 @@ Réorientation d'Atlas vers sont but premier : Logiciel d'illustration vectoris�
 Conserver les perfomance et la gestion mémoire/ram d'Atlas
 Garder GTK4 ? 
 Bref pleins de truc 
+
+----------------------------------------------------
+Amélioration global de l'application et des performance
+Vectoristion prete en cours de teste pratique 
